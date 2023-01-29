@@ -1,0 +1,3737 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="audio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\audio.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sb_7frames_f1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_7frames_f1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_7frames_f2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_7frames_f2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_7frames_f3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_7frames_f3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_7frames_f4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_7frames_f4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_7frames_f5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_7frames_f5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_7frames_f6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_7frames_f6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_7frames_f7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_7frames_f7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_a__000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_a__000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_a__001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_a__001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_a__002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_a__002.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_a__003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_a__003.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_a__004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_a__004.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_a__005" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_a__005.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_a__006" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_a__006.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_a__007" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_a__007.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_a__008" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_a__008.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_a__009" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_a__009.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_a__00a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_a__00a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_bed_b1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_bed_b1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_bed_b2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_bed_b2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_bed_b3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_bed_b3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_bed_b4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_bed_b4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_bed_b5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_bed_b5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_clock_c1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_clock_c1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_clock_c2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_clock_c2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_clock_c3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_clock_c3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_clock_c4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_clock_c4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_cry_stack_c1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_cry stack_c1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_cry_stack_c2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_cry stack_c2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_cry_stack_c3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_cry stack_c3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_cry_stack_c4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_cry stack_c4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_cry_stack_c5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_cry stack_c5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_cry_stack_c6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_cry stack_c6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_cry_stack_c7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_cry stack_c7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_d__000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_d__000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_d__001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_d__001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_d__002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_d__002.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_d__003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_d__003.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_d__004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_d__004.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_d__005" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_d__005.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_d__006" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_d__006.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_d__007" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_d__007.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__001.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__002.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__003.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__004.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__005" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__005.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__006" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__006.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__007" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__007.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__008" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__008.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__009" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__009.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__00a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__00a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__00b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__00b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__00c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__00c.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__00d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__00d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__00e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__00e.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__00f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__00f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__010.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__011.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__012" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__012.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__013" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__013.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__014" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__014.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__015" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__015.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__016" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__016.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__017" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__017.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__018" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__018.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__019" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__019.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__01a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__01a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__01b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__01b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__01c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__01c.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__01d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__01d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__01e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__01e.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__01f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__01f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__020" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__020.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__021" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__021.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__022" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__022.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__023" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__023.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__024.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__025" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__025.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__026" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__026.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__027" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__027.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__028" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__028.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__029" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__029.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__02a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__02a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__02b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__02b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__02c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__02c.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__02d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__02d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__02e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__02e.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__02f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__02f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__030" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__030.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__031" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__031.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__032" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__032.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__033" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__033.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__034" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__034.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__035" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__035.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__036" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__036.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__037" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__037.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__038" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__038.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__039" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__039.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__03a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__03a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__03b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__03b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__03c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__03c.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__03d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__03d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__03e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__03e.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__03f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__03f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__040" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__040.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__041" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__041.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__042" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__042.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__043" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__043.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__044" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__044.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__045" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__045.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__046" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__046.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__047" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__047.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__048" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__048.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__049" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__049.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__04a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__04a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__04b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__04b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__04c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__04c.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__04d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__04d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__04e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__04e.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__04f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__04f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__050" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__050.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__051" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__051.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_f__052" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_f__052.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_stack_s1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_stack_s1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_stack_s2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_stack_s2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_stack_s3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_stack_s3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_stack_s4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_stack_s4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_stack_s5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_stack_s5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_stack_s6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_stack_s6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_stack_s7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_stack_s7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_stack_s8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_stack_s8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_stack_s9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_stack_s9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_stare_s1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_stare_s1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_stare_s2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_stare_s2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_stare_s3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_stare_s3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_stare_s4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_stare_s4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_stare_s5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_stare_s5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_stare_s6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_stare_s6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sb_stare_s7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\sb_stare_s7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Sprite,Background,Centre,"sb\7frames\f1.png",0,0
+ F,0,4363,,1
+ S,0,4363,,0.7
+ MX,0,4363,,350
+ MX,30,4363,4613,350,305
+ MY,25,4363,4613,0,250
+ MX,30,4636,4886,305,260
+ MX,30,4909,5159,260,215
+ MX,30,5182,5432,215,170
+ MX,30,5455,5705,170,125
+ MX,30,5728,5978,125,80
+ MX,30,6001,6251,80,35
+ MX,30,6274,6524,35,-10
+ F,0,6396,,0
+ F,0,6547,,1
+ S,0,6547,,0.7
+ MX,0,6547,,350
+ MX,30,6547,6797,350,305
+ MY,25,6547,6797,0,250
+ MX,30,6820,7070,305,260
+ MX,30,7093,7343,260,215
+ MX,30,7366,7616,215,170
+ MX,30,7639,7889,170,125
+ MX,30,7912,8162,125,80
+ MX,30,8185,8435,80,35
+ MX,30,8458,8708,35,-10
+ F,0,8580,,0
+ F,0,8731,,1
+ S,0,8731,,0.7
+ MX,0,8731,,350
+ MX,30,8731,8981,350,305
+ MY,25,8731,8981,0,250
+ MX,30,9004,9254,305,260
+ MX,30,9277,9527,260,215
+ MX,30,9550,9800,215,170
+ MX,30,9823,10073,170,125
+ MX,30,10096,10346,125,80
+ MX,30,10369,10619,80,35
+ MX,30,10642,10892,35,-10
+ F,0,10764,,0
+ F,0,10915,,1
+ S,0,10915,,0.7
+ MX,0,10915,,350
+ MX,30,10915,11165,350,305
+ MY,25,10915,11165,0,250
+ MX,30,11188,11438,305,260
+ MX,30,11461,11711,260,215
+ MX,30,11734,11984,215,170
+ MX,30,12007,12257,170,125
+ MX,30,12280,12530,125,80
+ MX,30,12553,12803,80,35
+ MX,30,12826,13076,35,-10
+ F,0,12948,,0
+ F,0,13099,,1
+ S,0,13099,,0.7
+ MX,0,13099,,350
+ MX,30,13099,13349,350,305
+ MY,25,13099,13349,0,250
+ MX,30,13372,13622,305,260
+ MX,30,13645,13895,260,215
+ MX,30,13918,14168,215,170
+ MX,30,14191,14441,170,125
+ MX,30,14464,14714,125,80
+ MX,30,14737,14987,80,35
+ MX,30,15010,15260,35,-10
+ F,0,15132,,0
+ F,0,15283,,1
+ S,0,15283,,0.7
+ MX,0,15283,,350
+ MX,30,15283,15533,350,305
+ MY,25,15283,15533,0,250
+ MX,30,15556,15806,305,260
+ MX,30,15829,16079,260,215
+ MX,30,16102,16352,215,170
+ MX,30,16375,16625,170,125
+ MX,30,16648,16898,125,80
+ MX,30,16921,17171,80,35
+ MX,30,17194,17444,35,-10
+ F,0,17316,,0
+ F,0,17467,,1
+ S,0,17467,,0.7
+ MX,0,17467,,350
+ MX,30,17467,17717,350,305
+ MY,25,17467,17717,0,250
+ MX,30,17740,17990,305,260
+ MX,30,18013,18263,260,215
+ MX,30,18286,18536,215,170
+ MX,30,18559,18809,170,125
+ MX,30,18832,19082,125,80
+ MX,30,19105,19355,80,35
+ MX,30,19378,19628,35,-10
+ F,0,19500,,0
+ F,0,19651,,1
+ S,0,19651,,0.7
+ MX,0,19651,,350
+ MX,30,19651,19901,350,305
+ MY,25,19651,19901,0,250
+ MX,30,19924,20174,305,260
+ MX,30,20197,20447,260,215
+ MX,30,20470,20720,215,170
+ MX,30,20743,20993,170,125
+ MX,30,21016,21266,125,80
+ MX,30,21289,21539,80,35
+ MX,30,21562,21812,35,-10
+ F,0,21684,,0
+ F,0,21835,,1
+ S,0,21835,,0.7
+ MX,0,21835,,350
+ MX,30,21835,22085,350,305
+ MY,25,21835,22085,0,250
+ MX,30,22108,22358,305,260
+ MX,30,22381,22631,260,215
+ MX,30,22654,22904,215,170
+ MX,30,22927,23177,170,125
+ MX,30,23200,23450,125,80
+ MX,30,23473,23723,80,35
+ MX,30,23746,23996,35,-10
+ F,0,23868,,0
+ F,0,24019,,1
+ S,0,24019,,0.7
+ MX,0,24019,,350
+ MX,30,24019,24269,350,305
+ MY,25,24019,24269,0,250
+ MX,30,24292,24542,305,260
+ MX,30,24565,24815,260,215
+ MX,30,24838,25088,215,170
+ MX,30,25111,25361,170,125
+ MX,30,25384,25634,125,80
+ MX,30,25657,25907,80,35
+ MX,30,25930,26180,35,-10
+ F,0,26052,,0
+ F,0,26203,,1
+ S,0,26203,,0.7
+ MX,0,26203,,350
+ MX,30,26203,26453,350,305
+ MY,25,26203,26453,0,250
+ MX,30,26476,26726,305,260
+ MX,30,26749,26999,260,215
+ MX,30,27022,27272,215,170
+ MX,30,27295,27545,170,125
+ MX,30,27568,27818,125,80
+ MX,30,27841,28091,80,35
+ MX,30,28114,28364,35,-10
+ F,0,28236,,0
+ F,0,28387,,1
+ S,0,28387,,0.7
+ MX,0,28387,,350
+ MX,30,28387,28637,350,305
+ MY,25,28387,28637,0,250
+ MX,30,28660,28910,305,260
+ MX,30,28933,29183,260,215
+ MX,30,29206,29456,215,170
+ MX,30,29479,29729,170,125
+ MX,30,29752,30002,125,80
+ MX,30,30025,30275,80,35
+ MX,30,30298,30548,35,-10
+ F,0,30420,,0
+ F,0,30571,,1
+ S,0,30571,,0.7
+ MX,0,30571,,350
+ MX,30,30571,30821,350,305
+ MY,25,30571,30821,0,250
+ MX,30,30844,31094,305,260
+ MX,30,31117,31367,260,215
+ MX,30,31390,31640,215,170
+ MX,30,31663,31913,170,125
+ MX,30,31936,32186,125,80
+ MX,30,32209,32459,80,35
+ MX,30,32482,32732,35,-10
+ F,0,32604,,0
+ F,0,32755,,1
+ S,0,32755,,0.7
+ MX,0,32755,,350
+ MX,30,32755,33005,350,305
+ MY,25,32755,33005,0,250
+ MX,30,33028,33278,305,260
+ MX,30,33301,33551,260,215
+ MX,30,33574,33824,215,170
+ MX,30,33847,34097,170,125
+ MX,30,34120,34370,125,80
+ MX,30,34393,34643,80,35
+ MX,30,34666,34916,35,-10
+ F,0,34788,,0
+ F,0,34939,,1
+ S,0,34939,,0.7
+ MX,0,34939,,350
+ MX,30,34939,35189,350,305
+ MY,25,34939,35189,0,250
+ MX,30,35212,35462,305,260
+ MX,30,35485,35735,260,215
+ MX,30,35758,36008,215,170
+ MX,30,36031,36281,170,125
+ MX,30,36304,36554,125,80
+ MX,30,36577,36827,80,35
+ MX,30,36850,37100,35,-10
+ F,0,36972,,0
+ F,0,37123,,1
+ S,0,37123,,0.7
+ MX,0,37123,,350
+ MX,30,37123,37373,350,305
+ MY,25,37123,37373,0,250
+ MX,30,37396,37646,305,260
+ MX,30,37669,37919,260,215
+ MX,30,37942,38192,215,170
+ MX,30,38215,38465,170,125
+ MX,30,38488,38738,125,80
+ MX,30,38761,39011,80,35
+ MX,30,39034,39284,35,-10
+ F,0,39157,,0
+Sprite,Background,Centre,"sb\7frames\f2.png",0,0
+ F,0,4636,,1
+ S,0,4636,,0.7
+ MX,0,4636,,350
+ MX,30,4636,4886,350,305
+ MY,25,4636,4886,0,250
+ MX,30,4909,5159,305,260
+ MX,30,5182,5432,260,215
+ MX,30,5455,5705,215,170
+ MX,30,5728,5978,170,125
+ MX,30,6001,6251,125,80
+ MX,30,6274,6524,80,35
+ F,0,6396,,0
+ F,0,6820,,1
+ S,0,6820,,0.7
+ MX,0,6820,,350
+ MX,30,6820,7070,350,305
+ MY,25,6820,7070,0,250
+ MX,30,7093,7343,305,260
+ MX,30,7366,7616,260,215
+ MX,30,7639,7889,215,170
+ MX,30,7912,8162,170,125
+ MX,30,8185,8435,125,80
+ MX,30,8458,8708,80,35
+ F,0,8580,,0
+ F,0,9004,,1
+ S,0,9004,,0.7
+ MX,0,9004,,350
+ MX,30,9004,9254,350,305
+ MY,25,9004,9254,0,250
+ MX,30,9277,9527,305,260
+ MX,30,9550,9800,260,215
+ MX,30,9823,10073,215,170
+ MX,30,10096,10346,170,125
+ MX,30,10369,10619,125,80
+ MX,30,10642,10892,80,35
+ F,0,10764,,0
+ F,0,11188,,1
+ S,0,11188,,0.7
+ MX,0,11188,,350
+ MX,30,11188,11438,350,305
+ MY,25,11188,11438,0,250
+ MX,30,11461,11711,305,260
+ MX,30,11734,11984,260,215
+ MX,30,12007,12257,215,170
+ MX,30,12280,12530,170,125
+ MX,30,12553,12803,125,80
+ MX,30,12826,13076,80,35
+ F,0,12948,,0
+ F,0,13372,,1
+ S,0,13372,,0.7
+ MX,0,13372,,350
+ MX,30,13372,13622,350,305
+ MY,25,13372,13622,0,250
+ MX,30,13645,13895,305,260
+ MX,30,13918,14168,260,215
+ MX,30,14191,14441,215,170
+ MX,30,14464,14714,170,125
+ MX,30,14737,14987,125,80
+ MX,30,15010,15260,80,35
+ F,0,15132,,0
+ F,0,15556,,1
+ S,0,15556,,0.7
+ MX,0,15556,,350
+ MX,30,15556,15806,350,305
+ MY,25,15556,15806,0,250
+ MX,30,15829,16079,305,260
+ MX,30,16102,16352,260,215
+ MX,30,16375,16625,215,170
+ MX,30,16648,16898,170,125
+ MX,30,16921,17171,125,80
+ MX,30,17194,17444,80,35
+ F,0,17316,,0
+ F,0,17740,,1
+ S,0,17740,,0.7
+ MX,0,17740,,350
+ MX,30,17740,17990,350,305
+ MY,25,17740,17990,0,250
+ MX,30,18013,18263,305,260
+ MX,30,18286,18536,260,215
+ MX,30,18559,18809,215,170
+ MX,30,18832,19082,170,125
+ MX,30,19105,19355,125,80
+ MX,30,19378,19628,80,35
+ F,0,19500,,0
+ F,0,19924,,1
+ S,0,19924,,0.7
+ MX,0,19924,,350
+ MX,30,19924,20174,350,305
+ MY,25,19924,20174,0,250
+ MX,30,20197,20447,305,260
+ MX,30,20470,20720,260,215
+ MX,30,20743,20993,215,170
+ MX,30,21016,21266,170,125
+ MX,30,21289,21539,125,80
+ MX,30,21562,21812,80,35
+ F,0,21684,,0
+ F,0,22108,,1
+ S,0,22108,,0.7
+ MX,0,22108,,350
+ MX,30,22108,22358,350,305
+ MY,25,22108,22358,0,250
+ MX,30,22381,22631,305,260
+ MX,30,22654,22904,260,215
+ MX,30,22927,23177,215,170
+ MX,30,23200,23450,170,125
+ MX,30,23473,23723,125,80
+ MX,30,23746,23996,80,35
+ F,0,23868,,0
+ F,0,24292,,1
+ S,0,24292,,0.7
+ MX,0,24292,,350
+ MX,30,24292,24542,350,305
+ MY,25,24292,24542,0,250
+ MX,30,24565,24815,305,260
+ MX,30,24838,25088,260,215
+ MX,30,25111,25361,215,170
+ MX,30,25384,25634,170,125
+ MX,30,25657,25907,125,80
+ MX,30,25930,26180,80,35
+ F,0,26052,,0
+ F,0,26476,,1
+ S,0,26476,,0.7
+ MX,0,26476,,350
+ MX,30,26476,26726,350,305
+ MY,25,26476,26726,0,250
+ MX,30,26749,26999,305,260
+ MX,30,27022,27272,260,215
+ MX,30,27295,27545,215,170
+ MX,30,27568,27818,170,125
+ MX,30,27841,28091,125,80
+ MX,30,28114,28364,80,35
+ F,0,28236,,0
+ F,0,28660,,1
+ S,0,28660,,0.7
+ MX,0,28660,,350
+ MX,30,28660,28910,350,305
+ MY,25,28660,28910,0,250
+ MX,30,28933,29183,305,260
+ MX,30,29206,29456,260,215
+ MX,30,29479,29729,215,170
+ MX,30,29752,30002,170,125
+ MX,30,30025,30275,125,80
+ MX,30,30298,30548,80,35
+ F,0,30420,,0
+ F,0,30844,,1
+ S,0,30844,,0.7
+ MX,0,30844,,350
+ MX,30,30844,31094,350,305
+ MY,25,30844,31094,0,250
+ MX,30,31117,31367,305,260
+ MX,30,31390,31640,260,215
+ MX,30,31663,31913,215,170
+ MX,30,31936,32186,170,125
+ MX,30,32209,32459,125,80
+ MX,30,32482,32732,80,35
+ F,0,32604,,0
+ F,0,33028,,1
+ S,0,33028,,0.7
+ MX,0,33028,,350
+ MX,30,33028,33278,350,305
+ MY,25,33028,33278,0,250
+ MX,30,33301,33551,305,260
+ MX,30,33574,33824,260,215
+ MX,30,33847,34097,215,170
+ MX,30,34120,34370,170,125
+ MX,30,34393,34643,125,80
+ MX,30,34666,34916,80,35
+ F,0,34788,,0
+ F,0,35212,,1
+ S,0,35212,,0.7
+ MX,0,35212,,350
+ MX,30,35212,35462,350,305
+ MY,25,35212,35462,0,250
+ MX,30,35485,35735,305,260
+ MX,30,35758,36008,260,215
+ MX,30,36031,36281,215,170
+ MX,30,36304,36554,170,125
+ MX,30,36577,36827,125,80
+ MX,30,36850,37100,80,35
+ F,0,36972,,0
+ F,0,37396,,1
+ S,0,37396,,0.7
+ MX,0,37396,,350
+ MX,30,37396,37646,350,305
+ MY,25,37396,37646,0,250
+ MX,30,37669,37919,305,260
+ MX,30,37942,38192,260,215
+ MX,30,38215,38465,215,170
+ MX,30,38488,38738,170,125
+ MX,30,38761,39011,125,80
+ MX,30,39034,39284,80,35
+ F,0,39157,,0
+Sprite,Background,Centre,"sb\7frames\f3.png",0,0
+ F,0,4909,,1
+ S,0,4909,,0.7
+ MX,0,4909,,350
+ MX,30,4909,5159,350,305
+ MY,25,4909,5159,0,250
+ MX,30,5182,5432,305,260
+ MX,30,5455,5705,260,215
+ MX,30,5728,5978,215,170
+ MX,30,6001,6251,170,125
+ MX,30,6274,6524,125,80
+ F,0,6396,,0
+ F,0,7093,,1
+ S,0,7093,,0.7
+ MX,0,7093,,350
+ MX,30,7093,7343,350,305
+ MY,25,7093,7343,0,250
+ MX,30,7366,7616,305,260
+ MX,30,7639,7889,260,215
+ MX,30,7912,8162,215,170
+ MX,30,8185,8435,170,125
+ MX,30,8458,8708,125,80
+ F,0,8580,,0
+ F,0,9277,,1
+ S,0,9277,,0.7
+ MX,0,9277,,350
+ MX,30,9277,9527,350,305
+ MY,25,9277,9527,0,250
+ MX,30,9550,9800,305,260
+ MX,30,9823,10073,260,215
+ MX,30,10096,10346,215,170
+ MX,30,10369,10619,170,125
+ MX,30,10642,10892,125,80
+ F,0,10764,,0
+ F,0,11461,,1
+ S,0,11461,,0.7
+ MX,0,11461,,350
+ MX,30,11461,11711,350,305
+ MY,25,11461,11711,0,250
+ MX,30,11734,11984,305,260
+ MX,30,12007,12257,260,215
+ MX,30,12280,12530,215,170
+ MX,30,12553,12803,170,125
+ MX,30,12826,13076,125,80
+ F,0,12948,,0
+ F,0,13645,,1
+ S,0,13645,,0.7
+ MX,0,13645,,350
+ MX,30,13645,13895,350,305
+ MY,25,13645,13895,0,250
+ MX,30,13918,14168,305,260
+ MX,30,14191,14441,260,215
+ MX,30,14464,14714,215,170
+ MX,30,14737,14987,170,125
+ MX,30,15010,15260,125,80
+ F,0,15132,,0
+ F,0,15829,,1
+ S,0,15829,,0.7
+ MX,0,15829,,350
+ MX,30,15829,16079,350,305
+ MY,25,15829,16079,0,250
+ MX,30,16102,16352,305,260
+ MX,30,16375,16625,260,215
+ MX,30,16648,16898,215,170
+ MX,30,16921,17171,170,125
+ MX,30,17194,17444,125,80
+ F,0,17316,,0
+ F,0,18013,,1
+ S,0,18013,,0.7
+ MX,0,18013,,350
+ MX,30,18013,18263,350,305
+ MY,25,18013,18263,0,250
+ MX,30,18286,18536,305,260
+ MX,30,18559,18809,260,215
+ MX,30,18832,19082,215,170
+ MX,30,19105,19355,170,125
+ MX,30,19378,19628,125,80
+ F,0,19500,,0
+ F,0,20197,,1
+ S,0,20197,,0.7
+ MX,0,20197,,350
+ MX,30,20197,20447,350,305
+ MY,25,20197,20447,0,250
+ MX,30,20470,20720,305,260
+ MX,30,20743,20993,260,215
+ MX,30,21016,21266,215,170
+ MX,30,21289,21539,170,125
+ MX,30,21562,21812,125,80
+ F,0,21684,,0
+ F,0,22381,,1
+ S,0,22381,,0.7
+ MX,0,22381,,350
+ MX,30,22381,22631,350,305
+ MY,25,22381,22631,0,250
+ MX,30,22654,22904,305,260
+ MX,30,22927,23177,260,215
+ MX,30,23200,23450,215,170
+ MX,30,23473,23723,170,125
+ MX,30,23746,23996,125,80
+ F,0,23868,,0
+ F,0,24565,,1
+ S,0,24565,,0.7
+ MX,0,24565,,350
+ MX,30,24565,24815,350,305
+ MY,25,24565,24815,0,250
+ MX,30,24838,25088,305,260
+ MX,30,25111,25361,260,215
+ MX,30,25384,25634,215,170
+ MX,30,25657,25907,170,125
+ MX,30,25930,26180,125,80
+ F,0,26052,,0
+ F,0,26749,,1
+ S,0,26749,,0.7
+ MX,0,26749,,350
+ MX,30,26749,26999,350,305
+ MY,25,26749,26999,0,250
+ MX,30,27022,27272,305,260
+ MX,30,27295,27545,260,215
+ M,0,27357,27368,225.5572,250
+ MX,30,27568,27818,215,170
+ MX,30,27841,28091,170,125
+ MX,30,28114,28364,125,80
+ F,0,28236,,0
+ F,0,28933,,1
+ S,0,28933,,0.7
+ MX,0,28933,,350
+ MX,30,28933,29183,350,305
+ MY,25,28933,29183,0,250
+ MX,30,29206,29456,305,260
+ MX,30,29479,29729,260,215
+ MX,30,29752,30002,215,170
+ MX,30,30025,30275,170,125
+ MX,30,30298,30548,125,80
+ F,0,30420,,0
+ F,0,31117,,1
+ S,0,31117,,0.7
+ MX,0,31117,,350
+ MX,30,31117,31367,350,305
+ MY,25,31117,31367,0,250
+ MX,30,31390,31640,305,260
+ MX,30,31663,31913,260,215
+ MX,30,31936,32186,215,170
+ MX,30,32209,32459,170,125
+ MX,30,32482,32732,125,80
+ F,0,32604,,0
+ F,0,33301,,1
+ S,0,33301,,0.7
+ MX,0,33301,,350
+ MX,30,33301,33551,350,305
+ MY,25,33301,33551,0,250
+ MX,30,33574,33824,305,260
+ MX,30,33847,34097,260,215
+ MX,30,34120,34370,215,170
+ MX,30,34393,34643,170,125
+ MX,30,34666,34916,125,80
+ F,0,34788,,0
+ F,0,35485,,1
+ S,0,35485,,0.7
+ MX,0,35485,,350
+ MX,30,35485,35735,350,305
+ MY,25,35485,35735,0,250
+ MX,30,35758,36008,305,260
+ MX,30,36031,36281,260,215
+ MX,30,36304,36554,215,170
+ MX,30,36577,36827,170,125
+ MX,30,36850,37100,125,80
+ F,0,36972,,0
+ F,0,37669,,1
+ S,0,37669,,0.7
+ MX,0,37669,,350
+ MX,30,37669,37919,350,305
+ MY,25,37669,37919,0,250
+ MX,30,37942,38192,305,260
+ MX,30,38215,38465,260,215
+ MX,30,38488,38738,215,170
+ MX,30,38761,39011,170,125
+ MX,30,39034,39284,125,80
+ F,0,39157,,0
+Sprite,Background,Centre,"sb\7frames\f4.png",0,0
+ F,0,5182,,1
+ S,0,5182,,0.7
+ MX,0,5182,,350
+ MX,30,5182,5432,350,305
+ MY,25,5182,5432,0,250
+ MX,30,5455,5705,305,260
+ MX,30,5728,5978,260,215
+ MX,30,6001,6251,215,170
+ MX,30,6274,6524,170,125
+ F,0,6396,,0
+ F,0,7366,,1
+ S,0,7366,,0.7
+ MX,0,7366,,350
+ MX,30,7366,7616,350,305
+ MY,25,7366,7616,0,250
+ MX,30,7639,7889,305,260
+ MX,30,7912,8162,260,215
+ MX,30,8185,8435,215,170
+ MX,30,8458,8708,170,125
+ F,0,8580,,0
+ F,0,9550,,1
+ S,0,9550,,0.7
+ MX,0,9550,,350
+ MX,30,9550,9800,350,305
+ MY,25,9550,9800,0,250
+ MX,30,9823,10073,305,260
+ MX,30,10096,10346,260,215
+ MX,30,10369,10619,215,170
+ MX,30,10642,10892,170,125
+ F,0,10764,,0
+ F,0,11734,,1
+ S,0,11734,,0.7
+ MX,0,11734,,350
+ MX,30,11734,11984,350,305
+ MY,25,11734,11984,0,250
+ MX,30,12007,12257,305,260
+ MX,30,12280,12530,260,215
+ MX,30,12553,12803,215,170
+ MX,30,12826,13076,170,125
+ F,0,12948,,0
+ F,0,13918,,1
+ S,0,13918,,0.7
+ MX,0,13918,,350
+ MX,30,13918,14168,350,305
+ MY,25,13918,14168,0,250
+ MX,30,14191,14441,305,260
+ MX,30,14464,14714,260,215
+ MX,30,14737,14987,215,170
+ MX,30,15010,15260,170,125
+ F,0,15132,,0
+ F,0,16102,,1
+ S,0,16102,,0.7
+ MX,0,16102,,350
+ MX,30,16102,16352,350,305
+ MY,25,16102,16352,0,250
+ MX,30,16375,16625,305,260
+ MX,30,16648,16898,260,215
+ MX,30,16921,17171,215,170
+ MX,30,17194,17444,170,125
+ F,0,17316,,0
+ F,0,18286,,1
+ S,0,18286,,0.7
+ MX,0,18286,,350
+ MX,30,18286,18536,350,305
+ MY,25,18286,18536,0,250
+ MX,30,18559,18809,305,260
+ MX,30,18832,19082,260,215
+ MX,30,19105,19355,215,170
+ MX,30,19378,19628,170,125
+ F,0,19500,,0
+ F,0,20470,,1
+ S,0,20470,,0.7
+ MX,0,20470,,350
+ MX,30,20470,20720,350,305
+ MY,25,20470,20720,0,250
+ MX,30,20743,20993,305,260
+ MX,30,21016,21266,260,215
+ MX,30,21289,21539,215,170
+ MX,30,21562,21812,170,125
+ F,0,21684,,0
+ F,0,22654,,1
+ S,0,22654,,0.7
+ MX,0,22654,,350
+ MX,30,22654,22904,350,305
+ MY,25,22654,22904,0,250
+ MX,30,22927,23177,305,260
+ MX,30,23200,23450,260,215
+ MX,30,23473,23723,215,170
+ MX,30,23746,23996,170,125
+ F,0,23868,,0
+ F,0,24838,,1
+ S,0,24838,,0.7
+ MX,0,24838,,350
+ MX,30,24838,25088,350,305
+ MY,25,24838,25088,0,250
+ MX,30,25111,25361,305,260
+ MX,30,25384,25634,260,215
+ MX,30,25657,25907,215,170
+ MX,30,25930,26180,170,125
+ F,0,26052,,0
+ F,0,27022,,1
+ S,0,27022,,0.7
+ MX,0,27022,,350
+ MX,30,27022,27272,350,305
+ MY,25,27022,27272,0,250
+ MX,30,27295,27545,305,260
+ MX,30,27568,27818,260,215
+ MX,30,27841,28091,215,170
+ MX,30,28114,28364,170,125
+ F,0,28236,,0
+ F,0,29206,,1
+ S,0,29206,,0.7
+ MX,0,29206,,350
+ MX,30,29206,29456,350,305
+ MY,25,29206,29456,0,250
+ MX,30,29479,29729,305,260
+ MX,30,29752,30002,260,215
+ MX,30,30025,30275,215,170
+ MX,30,30298,30548,170,125
+ F,0,30420,,0
+ F,0,31390,,1
+ S,0,31390,,0.7
+ MX,0,31390,,350
+ MX,30,31390,31640,350,305
+ MY,25,31390,31640,0,250
+ MX,30,31663,31913,305,260
+ MX,30,31936,32186,260,215
+ MX,30,32209,32459,215,170
+ MX,30,32482,32732,170,125
+ F,0,32604,,0
+ F,0,33574,,1
+ S,0,33574,,0.7
+ MX,0,33574,,350
+ MX,30,33574,33824,350,305
+ MY,25,33574,33824,0,250
+ MX,30,33847,34097,305,260
+ MX,30,34120,34370,260,215
+ MX,30,34393,34643,215,170
+ MX,30,34666,34916,170,125
+ F,0,34788,,0
+ F,0,35758,,1
+ S,0,35758,,0.7
+ MX,0,35758,,350
+ MX,30,35758,36008,350,305
+ MY,25,35758,36008,0,250
+ MX,30,36031,36281,305,260
+ MX,30,36304,36554,260,215
+ MX,30,36577,36827,215,170
+ MX,30,36850,37100,170,125
+ F,0,36972,,0
+ F,0,37942,,1
+ S,0,37942,,0.7
+ MX,0,37942,,350
+ MX,30,37942,38192,350,305
+ MY,25,37942,38192,0,250
+ MX,30,38215,38465,305,260
+ MX,30,38488,38738,260,215
+ MX,30,38761,39011,215,170
+ MX,30,39034,39284,170,125
+ F,0,39157,,0
+Sprite,Background,Centre,"sb\7frames\f5.png",0,0
+ F,0,5455,,1
+ S,0,5455,,0.7
+ MX,0,5455,,350
+ MX,30,5455,5705,350,305
+ MY,25,5455,5705,0,250
+ MX,30,5728,5978,305,260
+ MX,30,6001,6251,260,215
+ MX,30,6274,6524,215,170
+ F,0,6396,,0
+ F,0,7639,,1
+ S,0,7639,,0.7
+ MX,0,7639,,350
+ MX,30,7639,7889,350,305
+ MY,25,7639,7889,0,250
+ MX,30,7912,8162,305,260
+ MX,30,8185,8435,260,215
+ MX,30,8458,8708,215,170
+ F,0,8580,,0
+ F,0,9823,,1
+ S,0,9823,,0.7
+ MX,0,9823,,350
+ MX,30,9823,10073,350,305
+ MY,25,9823,10073,0,250
+ MX,30,10096,10346,305,260
+ MX,30,10369,10619,260,215
+ MX,30,10642,10892,215,170
+ F,0,10764,,0
+ F,0,12007,,1
+ S,0,12007,,0.7
+ MX,0,12007,,350
+ MX,30,12007,12257,350,305
+ MY,25,12007,12257,0,250
+ MX,30,12280,12530,305,260
+ MX,30,12553,12803,260,215
+ MX,30,12826,13076,215,170
+ F,0,12948,,0
+ F,0,14191,,1
+ S,0,14191,,0.7
+ MX,0,14191,,350
+ MX,30,14191,14441,350,305
+ MY,25,14191,14441,0,250
+ MX,30,14464,14714,305,260
+ MX,30,14737,14987,260,215
+ MX,30,15010,15260,215,170
+ F,0,15132,,0
+ F,0,16375,,1
+ S,0,16375,,0.7
+ MX,0,16375,,350
+ MX,30,16375,16625,350,305
+ MY,25,16375,16625,0,250
+ MX,30,16648,16898,305,260
+ MX,30,16921,17171,260,215
+ MX,30,17194,17444,215,170
+ F,0,17316,,0
+ F,0,18559,,1
+ S,0,18559,,0.7
+ MX,0,18559,,350
+ MX,30,18559,18809,350,305
+ MY,25,18559,18809,0,250
+ MX,30,18832,19082,305,260
+ MX,30,19105,19355,260,215
+ MX,30,19378,19628,215,170
+ F,0,19500,,0
+ F,0,20743,,1
+ S,0,20743,,0.7
+ MX,0,20743,,350
+ MX,30,20743,20993,350,305
+ MY,25,20743,20993,0,250
+ MX,30,21016,21266,305,260
+ MX,30,21289,21539,260,215
+ MX,30,21562,21812,215,170
+ F,0,21684,,0
+ F,0,22927,,1
+ S,0,22927,,0.7
+ MX,0,22927,,350
+ MX,30,22927,23177,350,305
+ MY,25,22927,23177,0,250
+ MX,30,23200,23450,305,260
+ MX,30,23473,23723,260,215
+ MX,30,23746,23996,215,170
+ F,0,23868,,0
+ F,0,25111,,1
+ S,0,25111,,0.7
+ MX,0,25111,,350
+ MX,30,25111,25361,350,305
+ MY,25,25111,25361,0,250
+ MX,30,25384,25634,305,260
+ MX,30,25657,25907,260,215
+ MX,30,25930,26180,215,170
+ F,0,26052,,0
+ F,0,27295,,1
+ S,0,27295,,0.7
+ MX,0,27295,,350
+ MX,30,27295,27545,350,305
+ MY,25,27295,27545,0,250
+ MX,30,27568,27818,305,260
+ MX,30,27841,28091,260,215
+ MX,30,28114,28364,215,170
+ F,0,28236,,0
+ F,0,29479,,1
+ S,0,29479,,0.7
+ MX,0,29479,,350
+ MX,30,29479,29729,350,305
+ MY,25,29479,29729,0,250
+ MX,30,29752,30002,305,260
+ MX,30,30025,30275,260,215
+ MX,30,30298,30548,215,170
+ F,0,30420,,0
+ F,0,31663,,1
+ S,0,31663,,0.7
+ MX,0,31663,,350
+ MX,30,31663,31913,350,305
+ MY,25,31663,31913,0,250
+ MX,30,31936,32186,305,260
+ MX,30,32209,32459,260,215
+ MX,30,32482,32732,215,170
+ F,0,32604,,0
+ F,0,33847,,1
+ S,0,33847,,0.7
+ MX,0,33847,,350
+ MX,30,33847,34097,350,305
+ MY,25,33847,34097,0,250
+ MX,30,34120,34370,305,260
+ MX,30,34393,34643,260,215
+ MX,30,34666,34916,215,170
+ F,0,34788,,0
+ F,0,36031,,1
+ S,0,36031,,0.7
+ MX,0,36031,,350
+ MX,30,36031,36281,350,305
+ MY,25,36031,36281,0,250
+ MX,30,36304,36554,305,260
+ MX,30,36577,36827,260,215
+ MX,30,36850,37100,215,170
+ F,0,36972,,0
+ F,0,38215,,1
+ S,0,38215,,0.7
+ MX,0,38215,,350
+ MX,30,38215,38465,350,305
+ MY,25,38215,38465,0,250
+ MX,30,38488,38738,305,260
+ MX,30,38761,39011,260,215
+ MX,30,39034,39284,215,170
+ F,0,39157,,0
+Sprite,Background,Centre,"sb\7frames\f6.png",0,0
+ F,0,5728,,1
+ S,0,5728,,0.7
+ MX,0,5728,,350
+ MX,30,5728,5978,350,305
+ MY,25,5728,5978,0,250
+ MX,30,6001,6251,305,260
+ MX,30,6274,6524,260,215
+ F,0,6396,,0
+ F,0,7912,,1
+ S,0,7912,,0.7
+ MX,0,7912,,350
+ MX,30,7912,8162,350,305
+ MY,25,7912,8162,0,250
+ MX,30,8185,8435,305,260
+ MX,30,8458,8708,260,215
+ F,0,8580,,0
+ F,0,10096,,1
+ S,0,10096,,0.7
+ MX,0,10096,,350
+ MX,30,10096,10346,350,305
+ MY,25,10096,10346,0,250
+ MX,30,10369,10619,305,260
+ MX,30,10642,10892,260,215
+ F,0,10764,,0
+ F,0,12280,,1
+ S,0,12280,,0.7
+ MX,0,12280,,350
+ MX,30,12280,12530,350,305
+ MY,25,12280,12530,0,250
+ MX,30,12553,12803,305,260
+ MX,30,12826,13076,260,215
+ F,0,12948,,0
+ F,0,14464,,1
+ S,0,14464,,0.7
+ MX,0,14464,,350
+ MX,30,14464,14714,350,305
+ MY,25,14464,14714,0,250
+ MX,30,14737,14987,305,260
+ MX,30,15010,15260,260,215
+ F,0,15132,,0
+ F,0,16648,,1
+ S,0,16648,,0.7
+ MX,0,16648,,350
+ MX,30,16648,16898,350,305
+ MY,25,16648,16898,0,250
+ MX,30,16921,17171,305,260
+ MX,30,17194,17444,260,215
+ F,0,17316,,0
+ F,0,18832,,1
+ S,0,18832,,0.7
+ MX,0,18832,,350
+ MX,30,18832,19082,350,305
+ MY,25,18832,19082,0,250
+ MX,30,19105,19355,305,260
+ MX,30,19378,19628,260,215
+ F,0,19500,,0
+ F,0,21016,,1
+ S,0,21016,,0.7
+ MX,0,21016,,350
+ MX,30,21016,21266,350,305
+ MY,25,21016,21266,0,250
+ MX,30,21289,21539,305,260
+ MX,30,21562,21812,260,215
+ F,0,21684,,0
+ F,0,23200,,1
+ S,0,23200,,0.7
+ MX,0,23200,,350
+ MX,30,23200,23450,350,305
+ MY,25,23200,23450,0,250
+ MX,30,23473,23723,305,260
+ MX,30,23746,23996,260,215
+ F,0,23868,,0
+ F,0,25384,,1
+ S,0,25384,,0.7
+ MX,0,25384,,350
+ MX,30,25384,25634,350,305
+ MY,25,25384,25634,0,250
+ MX,30,25657,25907,305,260
+ MX,30,25930,26180,260,215
+ F,0,26052,,0
+ F,0,27568,,1
+ S,0,27568,,0.7
+ MX,0,27568,,350
+ MX,30,27568,27818,350,305
+ MY,25,27568,27818,0,250
+ MX,30,27841,28091,305,260
+ MX,30,28114,28364,260,215
+ F,0,28236,,0
+ F,0,29752,,1
+ S,0,29752,,0.7
+ MX,0,29752,,350
+ MX,30,29752,30002,350,305
+ MY,25,29752,30002,0,250
+ MX,30,30025,30275,305,260
+ MX,30,30298,30548,260,215
+ F,0,30420,,0
+ F,0,31936,,1
+ S,0,31936,,0.7
+ MX,0,31936,,350
+ MX,30,31936,32186,350,305
+ MY,25,31936,32186,0,250
+ MX,30,32209,32459,305,260
+ MX,30,32482,32732,260,215
+ F,0,32604,,0
+ F,0,34120,,1
+ S,0,34120,,0.7
+ MX,0,34120,,350
+ MX,30,34120,34370,350,305
+ MY,25,34120,34370,0,250
+ MX,30,34393,34643,305,260
+ MX,30,34666,34916,260,215
+ F,0,34788,,0
+ F,0,36304,,1
+ S,0,36304,,0.7
+ MX,0,36304,,350
+ MX,30,36304,36554,350,305
+ MY,25,36304,36554,0,250
+ MX,30,36577,36827,305,260
+ MX,30,36850,37100,260,215
+ F,0,36972,,0
+ F,0,38488,,1
+ S,0,38488,,0.7
+ MX,0,38488,,350
+ MX,30,38488,38738,350,305
+ MY,25,38488,38738,0,250
+ MX,30,38761,39011,305,260
+ MX,30,39034,39284,260,215
+ F,0,39157,,0
+Sprite,Background,Centre,"sb\7frames\f7.png",0,0
+ F,0,6001,,1
+ S,0,6001,,0.7
+ MX,0,6001,,350
+ MX,30,6001,6251,350,305
+ MY,25,6001,6251,0,250
+ MX,30,6274,6524,305,260
+ F,0,6396,,0
+ F,0,8185,,1
+ S,0,8185,,0.7
+ MX,0,8185,,350
+ MX,30,8185,8435,350,305
+ MY,25,8185,8435,0,250
+ MX,30,8458,8708,305,260
+ F,0,8580,,0
+ F,0,10369,,1
+ S,0,10369,,0.7
+ MX,0,10369,,350
+ MX,30,10369,10619,350,305
+ MY,25,10369,10619,0,250
+ MX,30,10642,10892,305,260
+ F,0,10764,,0
+ F,0,12553,,1
+ S,0,12553,,0.7
+ MX,0,12553,,350
+ MX,30,12553,12803,350,305
+ MY,25,12553,12803,0,250
+ MX,30,12826,13076,305,260
+ F,0,12948,,0
+ F,0,14737,,1
+ S,0,14737,,0.7
+ MX,0,14737,,350
+ MX,30,14737,14987,350,305
+ MY,25,14737,14987,0,250
+ MX,30,15010,15260,305,260
+ F,0,15132,,0
+ F,0,16921,,1
+ S,0,16921,,0.7
+ MX,0,16921,,350
+ MX,30,16921,17171,350,305
+ MY,25,16921,17171,0,250
+ MX,30,17194,17444,305,260
+ F,0,17316,,0
+ F,0,19105,,1
+ S,0,19105,,0.7
+ MX,0,19105,,350
+ MX,30,19105,19355,350,305
+ MY,25,19105,19355,0,250
+ MX,30,19378,19628,305,260
+ F,0,19500,,0
+ F,0,21289,,1
+ S,0,21289,,0.7
+ MX,0,21289,,350
+ MX,30,21289,21539,350,305
+ MY,25,21289,21539,0,250
+ MX,30,21562,21812,305,260
+ F,0,21684,,0
+ F,0,23473,,1
+ S,0,23473,,0.7
+ MX,0,23473,,350
+ MX,30,23473,23723,350,305
+ MY,25,23473,23723,0,250
+ MX,30,23746,23996,305,260
+ F,0,23868,,0
+ F,0,25657,,1
+ S,0,25657,,0.7
+ MX,0,25657,,350
+ MX,30,25657,25907,350,305
+ MY,25,25657,25907,0,250
+ MX,30,25930,26180,305,260
+ F,0,26052,,0
+ F,0,27841,,1
+ S,0,27841,,0.7
+ MX,0,27841,,350
+ MX,30,27841,28091,350,305
+ MY,25,27841,28091,0,250
+ MX,30,28114,28364,305,260
+ F,0,28236,,0
+ F,0,30025,,1
+ S,0,30025,,0.7
+ MX,0,30025,,350
+ MX,30,30025,30275,350,305
+ MY,25,30025,30275,0,250
+ MX,30,30298,30548,305,260
+ F,0,30420,,0
+ F,0,32209,,1
+ S,0,32209,,0.7
+ MX,0,32209,,350
+ MX,30,32209,32459,350,305
+ MY,25,32209,32459,0,250
+ MX,30,32482,32732,305,260
+ F,0,32604,,0
+ F,0,34393,,1
+ S,0,34393,,0.7
+ MX,0,34393,,350
+ MX,30,34393,34643,350,305
+ MY,25,34393,34643,0,250
+ MX,30,34666,34916,305,260
+ F,0,34788,,0
+ F,0,36577,,1
+ S,0,36577,,0.7
+ MX,0,36577,,350
+ MX,30,36577,36827,350,305
+ MY,25,36577,36827,0,250
+ MX,30,36850,37100,305,260
+ F,0,36972,,0
+ F,0,38761,,1
+ S,0,38761,,0.7
+ MX,0,38761,,350
+ MX,30,38761,39011,350,305
+ MY,25,38761,39011,0,250
+ MX,30,39034,39284,305,260
+ F,0,39157,,0
+Sprite,Background,Centre,"sb\clock\c1.png",320,240
+ F,0,2181,,1
+ S,0,2181,3817,0.45
+ F,0,3847,,0
+ F,0,64363,,1
+ S,0,64363,65999,0.45
+ F,0,66029,,0
+ F,0,66545,,1
+ S,0,66545,68181,0.45
+ F,0,68211,,0
+ F,0,68727,,1
+ S,0,68727,70363,0.45
+ F,0,70393,,0
+ F,0,70908,,1
+ S,0,70908,72544,0.45
+ F,0,72574,,0
+ F,0,73090,,1
+ S,0,73090,74726,0.45
+ F,0,74756,,0
+ F,0,75272,,1
+ S,0,75272,76908,0.45
+ F,0,76938,,0
+ F,0,77454,,1
+ F,0,81575,,0
+ F,0,213544,,0
+ F,0,213544,,1
+ S,0,213574,,0.45
+Sprite,Background,Centre,"sb\clock\c2.png",320,240
+ F,0,3817,,1
+ S,0,3817,3885,0.45
+ F,0,3915,,0
+ F,0,65999,,1
+ S,0,65999,66067,0.45
+ F,0,66097,,0
+ F,0,68181,,1
+ S,0,68181,68249,0.45
+ F,0,68279,,0
+ F,0,70363,,1
+ S,0,70363,70431,0.45
+ F,0,70461,,0
+ F,0,72544,,1
+ S,0,72544,72612,0.45
+ F,0,72642,,0
+ F,0,74726,,1
+ S,0,74726,74794,0.45
+ F,0,74824,,0
+ F,0,76908,,1
+ S,0,76908,76976,0.45
+ F,0,77006,,0
+ F,0,213544,,1
+ S,0,213544,213612,0.45
+ F,0,213642,,0
+Sprite,Background,Centre,"sb\clock\c3.png",320,240
+ F,0,3885,,1
+ S,0,3885,3953,0.45
+ F,0,3983,,0
+ F,0,66067,,1
+ S,0,66067,66135,0.45
+ F,0,66165,,0
+ F,0,68249,,1
+ S,0,68249,68317,0.45
+ F,0,68347,,0
+ F,0,70431,,1
+ S,0,70431,70499,0.45
+ F,0,70529,,0
+ F,0,72612,,1
+ S,0,72612,72680,0.45
+ F,0,72710,,0
+ F,0,74794,,1
+ S,0,74794,74862,0.45
+ F,0,74892,,0
+ F,0,76976,,1
+ S,0,76976,77044,0.45
+ F,0,77074,,0
+ F,0,213612,,1
+ S,0,213612,213680,0.45
+ F,0,213710,,0
+Sprite,Background,Centre,"sb\clock\c4.png",320,240
+ F,0,3953,,1
+ S,0,3953,4090,0.45
+ F,0,4090,,0
+ F,0,66135,,1
+ S,0,66135,66272,0.45
+ F,0,66272,,0
+ F,0,68317,,1
+ S,0,68317,68454,0.45
+ F,0,68454,,0
+ F,0,70499,,1
+ S,0,70499,70636,0.45
+ F,0,70636,,0
+ F,0,72680,,1
+ S,0,72680,72817,0.45
+ F,0,72817,,0
+ F,0,74862,,1
+ S,0,74862,74999,0.45
+ F,0,74999,,0
+ F,0,77044,,1
+ S,0,77044,77181,0.45
+ F,0,77181,,0
+ F,0,213680,,1
+ S,0,213680,214017,0.45
+ F,0,214017,,0
+Sprite,Background,Centre,"sb\stare\s1.png",320,0
+ MY,0,39272,,260
+ S,0,39272,46908,0.7
+ F,0,46958,,0
+Sprite,Background,Centre,"sb\stare\s2.png",320,0
+ MY,0,46908,,260
+ S,0,46908,47112,0.7
+ F,0,47162,,0
+Sprite,Background,Centre,"sb\stare\s3.png",320,0
+ MY,0,47112,,260
+ S,0,47112,47317,0.7
+ F,0,47367,,0
+Sprite,Background,Centre,"sb\stare\s4.png",320,0
+ MY,0,47317,,260
+ S,0,47317,47862,0.7
+ F,0,47912,,0
+Sprite,Background,Centre,"sb\stack\s1.png",0,240
+ F,0,47999,,1
+ S,0,47999,,0.8
+ MX,10,47999,48099,320,270
+ MX,10,48545,48645,270,220
+ MX,10,48681,48781,220,170
+ MX,10,48817,48917,170,120
+ MX,10,48954,49054,120,70
+ MX,10,49090,49190,70,20
+ MX,10,49363,49463,20,-30
+ MX,10,49636,49736,-30,-80
+ MX,10,49908,50008,-80,-130
+ F,0,50181,,0
+Sprite,Background,Centre,"sb\stack\s1.png",0,240
+ F,0,48545,,1
+ S,0,48545,,0.8
+ MX,10,48545,48645,320,270
+ MX,10,48681,48781,270,220
+ MX,10,48817,48917,220,170
+ MX,10,48954,49054,170,120
+ MX,10,49090,49190,120,70
+ MX,10,49363,49463,70,20
+ MX,10,49636,49736,20,-30
+ MX,10,49908,50008,-30,-80
+ F,0,50181,,0
+Sprite,Background,Centre,"sb\stack\s2.png",0,240
+ F,0,48681,,1
+ S,0,48681,,0.8
+ MX,10,48681,48781,320,270
+ MX,10,48817,48917,270,220
+ MX,10,48954,49054,220,170
+ MX,10,49090,49190,170,120
+ MX,10,49363,49463,120,70
+ MX,10,49636,49736,70,20
+ MX,10,49908,50008,20,-30
+ F,0,50181,,0
+Sprite,Background,Centre,"sb\stack\s3.png",0,240
+ F,0,48817,,1
+ S,0,48817,,0.8
+ MX,10,48817,48917,320,270
+ MX,10,48954,49054,270,220
+ MX,10,49090,49190,220,170
+ MX,10,49363,49463,170,120
+ MX,10,49636,49736,120,70
+ MX,10,49908,50008,70,20
+ F,0,50181,,0
+Sprite,Background,Centre,"sb\stack\s3.png",0,240
+ F,0,48954,,1
+ S,0,48954,,0.8
+ MX,10,48954,49054,320,270
+ MX,10,49090,49190,270,220
+ MX,10,49363,49463,220,170
+ MX,10,49636,49736,170,120
+ MX,10,49908,50008,120,70
+ F,0,50181,,0
+Sprite,Background,Centre,"sb\stack\s1.png",0,240
+ F,0,49090,,1
+ S,0,49090,,0.8
+ MX,10,49090,49190,320,270
+ MX,10,49363,49463,270,220
+ MX,10,49636,49736,220,170
+ MX,10,49908,50008,170,120
+ F,0,50181,,0
+Sprite,Background,Centre,"sb\stack\s3.png",0,240
+ F,0,49363,,1
+ S,0,49363,,0.8
+ MX,10,49363,49463,320,270
+ MX,10,49636,49736,270,220
+ MX,10,49908,50008,220,170
+ F,0,50181,,0
+Sprite,Background,Centre,"sb\stack\s1.png",0,240
+ F,0,49636,,1
+ S,0,49636,,0.8
+ MX,10,49636,49736,320,270
+ MX,10,49908,50008,270,220
+ F,0,50181,,0
+Sprite,Background,Centre,"sb\stack\s4.png",0,240
+ F,0,49908,,1
+ S,0,49908,,0.8
+ MX,10,49908,50008,320,270
+ F,0,50181,,0
+Sprite,Background,Centre,"sb\stack\s1.png",0,240
+ F,0,50181,,1
+ S,0,50181,,0.8
+ MX,10,50181,50281,320,270
+ MX,10,50727,50827,270,220
+ MX,10,50863,50963,220,170
+ MX,10,50999,51099,170,120
+ MX,10,51136,51236,120,70
+ MX,10,51272,51372,70,20
+ MX,10,51545,51645,20,-30
+ MX,10,51818,51918,-30,-80
+ MX,10,51954,52054,-80,-130
+ MX,10,52090,52190,-130,-180
+ F,0,52363,,0
+Sprite,Background,Centre,"sb\stack\s4.png",0,240
+ F,0,50727,,1
+ S,0,50727,,0.8
+ MX,10,50727,50827,320,270
+ MX,10,50863,50963,270,220
+ MX,10,50999,51099,220,170
+ MX,10,51136,51236,170,120
+ MX,10,51272,51372,120,70
+ MX,10,51545,51645,70,20
+ MX,10,51818,51918,20,-30
+ MX,10,51954,52054,-30,-80
+ MX,10,52090,52190,-80,-130
+ F,0,52363,,0
+Sprite,Background,Centre,"sb\stack\s3.png",0,240
+ F,0,50863,,1
+ S,0,50863,,0.8
+ MX,10,50863,50963,320,270
+ MX,10,50999,51099,270,220
+ MX,10,51136,51236,220,170
+ MX,10,51272,51372,170,120
+ MX,10,51545,51645,120,70
+ MX,10,51818,51918,70,20
+ MX,10,51954,52054,20,-30
+ MX,10,52090,52190,-30,-80
+ F,0,52363,,0
+Sprite,Background,Centre,"sb\stack\s5.png",0,240
+ F,0,50999,,1
+ S,0,50999,,0.8
+ MX,10,50999,51099,320,270
+ MX,10,51136,51236,270,220
+ MX,10,51272,51372,220,170
+ MX,10,51545,51645,170,120
+ MX,10,51818,51918,120,70
+ MX,10,51954,52054,70,20
+ MX,10,52090,52190,20,-30
+ F,0,52363,,0
+Sprite,Background,Centre,"sb\stack\s5.png",0,240
+ F,0,51136,,1
+ S,0,51136,,0.8
+ MX,10,51136,51236,320,270
+ MX,10,51272,51372,270,220
+ MX,10,51545,51645,220,170
+ MX,10,51818,51918,170,120
+ MX,10,51954,52054,120,70
+ MX,10,52090,52190,70,20
+ F,0,52363,,0
+Sprite,Background,Centre,"sb\stack\s4.png",0,240
+ F,0,51272,,1
+ S,0,51272,,0.8
+ MX,10,51272,51372,320,270
+ MX,10,51545,51645,270,220
+ MX,10,51818,51918,220,170
+ MX,10,51954,52054,170,120
+ MX,10,52090,52190,120,70
+ F,0,52363,,0
+Sprite,Background,Centre,"sb\stack\s2.png",0,240
+ F,0,51545,,1
+ S,0,51545,,0.8
+ MX,10,51545,51645,320,270
+ MX,10,51818,51918,270,220
+ MX,10,51954,52054,220,170
+ MX,10,52090,52190,170,120
+ F,0,52363,,0
+Sprite,Background,Centre,"sb\stack\s1.png",0,240
+ F,0,51818,,1
+ S,0,51818,,0.8
+ MX,10,51818,51918,320,270
+ MX,10,51954,52054,270,220
+ MX,10,52090,52190,220,170
+ F,0,52363,,0
+Sprite,Background,Centre,"sb\stack\s3.png",0,240
+ F,0,51954,,1
+ S,0,51954,,0.8
+ MX,10,51954,52054,320,270
+ MX,10,52090,52190,270,220
+ F,0,52363,,0
+Sprite,Background,Centre,"sb\stack\s1.png",0,240
+ F,0,52090,,1
+ S,0,52090,,0.8
+ MX,10,52090,52190,320,270
+ F,0,52363,,0
+Sprite,Background,Centre,"sb\stack\s1.png",0,240
+ F,0,118908,,1
+ S,0,118908,,0.8
+ MX,10,118908,119008,320,270
+ MX,10,119454,119554,270,220
+ MX,10,119590,119690,220,170
+ MX,10,119726,119826,170,120
+ MX,10,119863,119963,120,70
+ MX,10,119999,120099,70,20
+ MX,10,120272,120372,20,-30
+ MX,10,120545,120645,-30,-80
+ F,0,120817,,0
+Sprite,Background,Centre,"sb\stack\s1.png",0,240
+ F,0,119454,,1
+ S,0,119454,,0.8
+ MX,10,119454,119554,320,270
+ MX,10,119590,119690,270,220
+ MX,10,119726,119826,220,170
+ MX,10,119863,119963,170,120
+ MX,10,119999,120099,120,70
+ MX,10,120272,120372,70,20
+ MX,10,120545,120645,20,-30
+ F,0,120817,,0
+Sprite,Background,Centre,"sb\stack\s1.png",0,240
+ F,0,119590,,1
+ S,0,119590,,0.8
+ MX,10,119590,119690,320,270
+ MX,10,119726,119826,270,220
+ MX,10,119863,119963,220,170
+ MX,10,119999,120099,170,120
+ MX,10,120272,120372,120,70
+ MX,10,120545,120645,70,20
+ F,0,120817,,0
+Sprite,Background,Centre,"sb\stack\s1.png",0,240
+ F,0,119726,,1
+ S,0,119726,,0.8
+ MX,10,119726,119826,320,270
+ MX,10,119863,119963,270,220
+ MX,10,119999,120099,220,170
+ MX,10,120272,120372,170,120
+ MX,10,120545,120645,120,70
+ F,0,120817,,0
+Sprite,Background,Centre,"sb\stack\s1.png",0,240
+ F,0,119863,,1
+ S,0,119863,,0.8
+ MX,10,119863,119963,320,270
+ MX,10,119999,120099,270,220
+ MX,10,120272,120372,220,170
+ MX,10,120545,120645,170,120
+ F,0,120817,,0
+Sprite,Background,Centre,"sb\stack\s3.png",0,240
+ F,0,119999,,1
+ S,0,119999,,0.8
+ MX,10,119999,120099,320,270
+ MX,10,120272,120372,270,220
+ MX,10,120545,120645,220,170
+ F,0,120817,,0
+Sprite,Background,Centre,"sb\stack\s2.png",0,240
+ F,0,120272,,1
+ S,0,120272,,0.8
+ MX,10,120272,120372,320,270
+ MX,10,120545,120645,270,220
+ F,0,120817,,0
+Sprite,Background,Centre,"sb\stack\s1.png",0,240
+ F,0,120545,,1
+ S,0,120545,,0.8
+ MX,10,120545,120645,320,270
+ F,0,120817,,0
+Sprite,Background,Centre,"sb\stack\s6.png",0,240
+ F,0,52363,,1
+ S,0,52363,,0.85
+ MX,10,52363,52663,350,290
+ MX,0,52663,56727,290,280
+ F,0,56727,,0
+Sprite,Background,Centre,"sb\stack\s7.png",0,240
+ F,0,56727,,1
+ S,0,56727,,0.85
+ MX,10,56727,57027,350,290
+ MX,0,57027,64090,290,280
+ F,0,64090,,0
+Sprite,Background,Centre,"sb\stack\s8.png",0,240
+ F,0,120817,,1
+ S,0,120817,,0.85
+ MX,10,120817,121117,350,290
+ MX,0,121117,127362,290,280
+ F,0,127362,,0
+Sprite,Background,Centre,"sb\stack\s9.png",0,240
+ F,0,127362,,1
+ S,0,127362,,0.85
+ MX,10,127362,127662,350,290
+ MX,0,127662,135817,290,280
+ F,0,135817,,0
+Sprite,Background,Centre,"sb\cry stack\c1.png",320,0
+ F,0,180817,,1
+ S,0,180817,,0.6
+ MY,0,180817,,190
+ MX,10,180817,180917,320,270
+ MX,10,181363,181463,270,220
+ MX,10,181499,181599,220,170
+ MX,10,181635,181735,170,120
+ MX,10,181772,181872,120,70
+ MX,10,181908,182008,70,20
+ MX,10,182181,182281,20,-30
+ MX,10,182454,182554,-30,-80
+ MX,10,182726,182826,-80,-130
+ F,0,182999,,0
+Sprite,Background,Centre,"sb\cry stack\c2.png",320,0
+ F,0,181363,,1
+ S,0,181363,,0.6
+ MY,0,181363,,190
+ MX,10,181363,181463,320,270
+ MX,10,181499,181599,270,220
+ MX,10,181635,181735,220,170
+ MX,10,181772,181872,170,120
+ MX,10,181908,182008,120,70
+ MX,10,182181,182281,70,20
+ MX,10,182454,182554,20,-30
+ MX,10,182726,182826,-30,-80
+ F,0,182999,,0
+Sprite,Background,Centre,"sb\cry stack\c2.png",320,0
+ F,0,181499,,1
+ S,0,181499,,0.6
+ MY,0,181499,,190
+ MX,10,181499,181599,320,270
+ MX,10,181635,181735,270,220
+ MX,10,181772,181872,220,170
+ MX,10,181908,182008,170,120
+ MX,10,182181,182281,120,70
+ MX,10,182454,182554,70,20
+ MX,10,182726,182826,20,-30
+ F,0,182999,,0
+Sprite,Background,Centre,"sb\cry stack\c3.png",320,0
+ F,0,181635,,1
+ S,0,181635,,0.6
+ MY,0,181635,,190
+ MX,10,181635,181735,320,270
+ MX,10,181772,181872,270,220
+ MX,10,181908,182008,220,170
+ MX,10,182181,182281,170,120
+ MX,10,182454,182554,120,70
+ MX,10,182726,182826,70,20
+ F,0,182999,,0
+Sprite,Background,Centre,"sb\cry stack\c3.png",320,0
+ F,0,181772,,1
+ S,0,181772,,0.6
+ MY,0,181772,,190
+ MX,10,181772,181872,320,270
+ MX,10,181908,182008,270,220
+ MX,10,182181,182281,220,170
+ MX,10,182454,182554,170,120
+ MX,10,182726,182826,120,70
+ F,0,182999,,0
+Sprite,Background,Centre,"sb\cry stack\c1.png",320,0
+ F,0,181908,,1
+ S,0,181908,,0.6
+ MY,0,181908,,190
+ MX,10,181908,182008,320,270
+ MX,10,182181,182281,270,220
+ MX,10,182454,182554,220,170
+ MX,10,182726,182826,170,120
+ F,0,182999,,0
+Sprite,Background,Centre,"sb\cry stack\c3.png",320,0
+ F,0,182181,,1
+ S,0,182181,,0.6
+ MY,0,182181,,190
+ MX,10,182181,182281,320,270
+ MX,10,182454,182554,270,220
+ MX,10,182726,182826,220,170
+ F,0,182999,,0
+Sprite,Background,Centre,"sb\cry stack\c1.png",320,0
+ F,0,182454,,1
+ S,0,182454,,0.6
+ MY,0,182454,,190
+ MX,10,182454,182554,320,270
+ MX,10,182726,182826,270,220
+ F,0,182999,,0
+Sprite,Background,Centre,"sb\cry stack\c2.png",320,0
+ F,0,182726,,1
+ S,0,182726,,0.6
+ MY,0,182726,,190
+ MX,10,182726,182826,320,270
+ F,0,182999,,0
+Sprite,Background,Centre,"sb\cry stack\c1.png",320,0
+ F,0,182998,,1
+ S,0,182998,,0.6
+ MY,0,182998,,190
+ MX,10,182998,183098,320,270
+ MX,10,183544,183644,270,220
+ MX,10,183680,183780,220,170
+ MX,10,183816,183916,170,120
+ MX,10,183953,184053,120,70
+ MX,10,184089,184189,70,20
+ MX,10,184362,184462,20,-30
+ MX,10,184635,184735,-30,-80
+ MX,10,184771,184871,-80,-130
+ MX,10,184907,185007,-130,-180
+ F,0,185180,,0
+Sprite,Background,Centre,"sb\cry stack\c1.png",320,0
+ F,0,183544,,1
+ S,0,183544,,0.6
+ MY,0,183544,,190
+ MX,10,183544,183644,320,270
+ MX,10,183680,183780,270,220
+ MX,10,183816,183916,220,170
+ MX,10,183953,184053,170,120
+ MX,10,184089,184189,120,70
+ MX,10,184362,184462,70,20
+ MX,10,184635,184735,20,-30
+ MX,10,184771,184871,-30,-80
+ MX,10,184907,185007,-80,-130
+ F,0,185180,,0
+Sprite,Background,Centre,"sb\cry stack\c3.png",320,0
+ F,0,183680,,1
+ S,0,183680,,0.6
+ MY,0,183680,,190
+ MX,10,183680,183780,320,270
+ MX,10,183816,183916,270,220
+ MX,10,183953,184053,220,170
+ MX,10,184089,184189,170,120
+ MX,10,184362,184462,120,70
+ MX,10,184635,184735,70,20
+ MX,10,184771,184871,20,-30
+ MX,10,184907,185007,-30,-80
+ F,0,185180,,0
+Sprite,Background,Centre,"sb\cry stack\c1.png",320,0
+ F,0,183816,,1
+ S,0,183816,,0.6
+ MY,0,183816,,190
+ MX,10,183816,183916,320,270
+ MX,10,183953,184053,270,220
+ MX,10,184089,184189,220,170
+ MX,10,184362,184462,170,120
+ MX,10,184635,184735,120,70
+ MX,10,184771,184871,70,20
+ MX,10,184907,185007,20,-30
+ F,0,185180,,0
+Sprite,Background,Centre,"sb\cry stack\c4.png",320,0
+ F,0,183953,,1
+ S,0,183953,,0.6
+ MY,0,183953,,190
+ MX,10,183953,184053,320,270
+ MX,10,184089,184189,270,220
+ MX,10,184362,184462,220,170
+ MX,10,184635,184735,170,120
+ MX,10,184771,184871,120,70
+ MX,10,184907,185007,70,20
+ F,0,185180,,0
+Sprite,Background,Centre,"sb\cry stack\c1.png",320,0
+ F,0,184089,,1
+ S,0,184089,,0.6
+ MY,0,184089,,190
+ MX,10,184089,184189,320,270
+ MX,10,184362,184462,270,220
+ MX,10,184635,184735,220,170
+ MX,10,184771,184871,170,120
+ MX,10,184907,185007,120,70
+ F,0,185180,,0
+Sprite,Background,Centre,"sb\cry stack\c4.png",320,0
+ F,0,184362,,1
+ S,0,184362,,0.6
+ MY,0,184362,,190
+ MX,10,184362,184462,320,270
+ MX,10,184635,184735,270,220
+ MX,10,184771,184871,220,170
+ MX,10,184907,185007,170,120
+ F,0,185180,,0
+Sprite,Background,Centre,"sb\cry stack\c1.png",320,0
+ F,0,184635,,1
+ S,0,184635,,0.6
+ MY,0,184635,,190
+ MX,10,184635,184735,320,270
+ MX,10,184771,184871,270,220
+ MX,10,184907,185007,220,170
+ F,0,185180,,0
+Sprite,Background,Centre,"sb\cry stack\c3.png",320,0
+ F,0,184771,,1
+ S,0,184771,,0.6
+ MY,0,184771,,190
+ MX,10,184771,184871,320,270
+ MX,10,184907,185007,270,220
+ F,0,185180,,0
+Sprite,Background,Centre,"sb\cry stack\c4.png",320,0
+ F,0,184907,,1
+ S,0,184907,,0.6
+ MY,0,184907,,190
+ MX,10,184907,185007,320,270
+ F,0,185180,,0
+Sprite,Background,Centre,"sb\cry stack\c1.png",350,0
+ F,0,185180,,1
+ S,0,185180,,0.6
+ MY,0,185180,,190
+ MX,10,185180,185480,350,290
+ MX,0,185480,189544,290,280
+ F,0,189544,,0
+Sprite,Background,Centre,"sb\cry stack\c5.png",120,0
+ F,0,189544,,1
+ S,0,189544,,0.6
+ MY,0,189544,,300
+ MX,10,189544,189844,120,110
+ MX,0,189844,196907,110,105
+ F,0,196907,,0
+Sprite,Background,Centre,"sb\cry stack\c6.png",320,0
+ F,0,197180,,1
+ S,0,197180,,0.65
+ MY,0,197180,,240
+ MX,10,197180,197280,320,270
+ MX,10,197726,197826,270,220
+ MX,10,197862,197962,220,170
+ MX,10,197998,198098,170,120
+ MX,10,198135,198235,120,70
+ MX,10,198271,198371,70,20
+ MX,10,198544,198644,20,-30
+ MX,10,198817,198917,-30,-80
+ MX,10,199089,199362,-80,-130
+ F,0,199362,,0
+Sprite,Background,Centre,"sb\cry stack\c6.png",320,0
+ F,0,197726,,1
+ S,0,197726,,0.65
+ MY,0,197726,,240
+ MX,10,197726,197826,320,270
+ MX,10,197862,197962,270,220
+ MX,10,197998,198098,220,170
+ MX,10,198135,198235,170,120
+ MX,10,198271,198371,120,70
+ MX,10,198544,198644,70,20
+ MX,10,198817,198917,20,-30
+ MX,10,199089,199362,-30,-80
+ F,0,199362,,0
+Sprite,Background,Centre,"sb\cry stack\c6.png",320,0
+ F,0,197862,,1
+ S,0,197862,,0.65
+ MY,0,197862,,240
+ MX,10,197862,197962,320,270
+ MX,10,197998,198098,270,220
+ MX,10,198135,198235,220,170
+ MX,10,198271,198371,170,120
+ MX,10,198544,198644,120,70
+ MX,10,198817,198917,70,20
+ MX,10,199089,199362,20,-30
+ F,0,199362,,0
+Sprite,Background,Centre,"sb\cry stack\c6.png",320,0
+ F,0,197998,,1
+ S,0,197998,,0.65
+ MY,0,197998,,240
+ MX,10,197998,198098,320,270
+ MX,10,198135,198235,270,220
+ MX,10,198271,198371,220,170
+ MX,10,198544,198644,170,120
+ MX,10,198817,198917,120,70
+ MX,10,199089,199362,70,20
+ F,0,199362,,0
+Sprite,Background,Centre,"sb\cry stack\c6.png",320,0
+ F,0,198135,,1
+ S,0,198135,,0.65
+ MY,0,198135,,240
+ MX,10,198135,198235,320,270
+ MX,10,198271,198371,270,220
+ MX,10,198544,198644,220,170
+ MX,10,198817,198917,170,120
+ MX,10,199089,199362,120,70
+ F,0,199362,,0
+Sprite,Background,Centre,"sb\cry stack\c6.png",320,0
+ F,0,198271,,1
+ S,0,198271,,0.65
+ MY,0,198271,,240
+ MX,10,198271,198371,320,270
+ MX,10,198544,198644,270,220
+ MX,10,198817,198917,220,170
+ MX,10,199089,199362,170,120
+ F,0,199362,,0
+Sprite,Background,Centre,"sb\cry stack\c6.png",320,0
+ F,0,198544,,1
+ S,0,198544,,0.65
+ MY,0,198544,,240
+ MX,10,198544,198644,320,270
+ MX,10,198817,198917,270,220
+ MX,10,199089,199362,220,170
+ F,0,199362,,0
+Sprite,Background,Centre,"sb\cry stack\c6.png",320,0
+ F,0,198817,,1
+ S,0,198817,,0.65
+ MY,0,198817,,240
+ MX,10,198817,198917,320,270
+ MX,10,199089,199362,270,220
+ F,0,199362,,0
+Sprite,Background,Centre,"sb\cry stack\c6.png",320,0
+ F,0,199362,,1
+ S,0,199362,,0.65
+ MY,0,199362,,240
+ MX,10,199362,199462,320,270
+ MX,10,199908,200008,270,220
+ MX,10,200044,200144,220,170
+ MX,10,200180,200280,170,120
+ MX,10,200317,200417,120,70
+ MX,10,200453,200553,70,20
+ MX,10,200726,200826,20,-30
+ MX,10,200999,201099,-30,-80
+ MX,10,201271,201544,-80,-130
+ F,0,201544,,0
+Sprite,Background,Centre,"sb\cry stack\c6.png",320,0
+ F,0,199908,,1
+ S,0,199908,,0.65
+ MY,0,199908,,240
+ MX,10,199908,200008,320,270
+ MX,10,200044,200144,270,220
+ MX,10,200180,200280,220,170
+ MX,10,200317,200417,170,120
+ MX,10,200453,200553,120,70
+ MX,10,200726,200826,70,20
+ MX,10,200999,201099,20,-30
+ MX,10,201271,201544,-30,-80
+ F,0,201544,,0
+Sprite,Background,Centre,"sb\cry stack\c6.png",320,0
+ F,0,200044,,1
+ S,0,200044,,0.65
+ MY,0,200044,,240
+ MX,10,200044,200144,320,270
+ MX,10,200180,200280,270,220
+ MX,10,200317,200417,220,170
+ MX,10,200453,200553,170,120
+ MX,10,200726,200826,120,70
+ MX,10,200999,201099,70,20
+ MX,10,201271,201544,20,-30
+ F,0,201544,,0
+Sprite,Background,Centre,"sb\cry stack\c6.png",320,0
+ F,0,200180,,1
+ S,0,200180,,0.65
+ MY,0,200180,,240
+ MX,10,200180,200280,320,270
+ MX,10,200317,200417,270,220
+ MX,10,200453,200553,220,170
+ MX,10,200726,200826,170,120
+ MX,10,200999,201099,120,70
+ MX,10,201271,201544,70,20
+ F,0,201544,,0
+Sprite,Background,Centre,"sb\cry stack\c6.png",320,0
+ F,0,200317,,1
+ S,0,200317,,0.65
+ MY,0,200317,,240
+ MX,10,200317,200417,320,270
+ MX,10,200453,200553,270,220
+ MX,10,200726,200826,220,170
+ MX,10,200999,201099,170,120
+ MX,10,201271,201544,120,70
+ F,0,201544,,0
+Sprite,Background,Centre,"sb\cry stack\c6.png",320,0
+ F,0,200453,,1
+ S,0,200453,,0.65
+ MY,0,200453,,240
+ MX,10,200453,200553,320,270
+ MX,10,200726,200826,270,220
+ MX,10,200999,201099,220,170
+ MX,10,201271,201544,170,120
+ F,0,201544,,0
+Sprite,Background,Centre,"sb\cry stack\c6.png",320,0
+ F,0,200726,,1
+ S,0,200726,,0.65
+ MY,0,200726,,240
+ MX,10,200726,200826,320,270
+ MX,10,200999,201099,270,220
+ MX,10,201271,201544,220,170
+ F,0,201544,,0
+Sprite,Background,Centre,"sb\cry stack\c6.png",320,0
+ F,0,200999,,1
+ S,0,200999,,0.65
+ MY,0,200999,,240
+ MX,10,200999,201099,320,270
+ MX,10,201271,201544,270,220
+ F,0,201544,,0
+Sprite,Background,Centre,"sb\cry stack\c6.png",320,0
+ F,0,201544,,1
+ S,0,201544,,0.65
+ MY,0,201544,,240
+ MX,10,201544,201844,350,290
+ MX,0,201844,205908,290,280
+ F,0,205908,,0
+Sprite,Background,Centre,"sb\cry stack\c7.png",350,0
+ F,0,205908,,1
+ S,0,205908,,0.65
+ MY,0,205908,,240
+ MX,10,205908,206208,350,290
+ MX,0,206208,213271,290,280
+ F,0,213271,,0
+Sprite,Background,Centre,"sb\bed\b2.png",320,0
+ F,0,81817,,1
+ S,0,81817,,0.7
+ MY,0,81817,,330
+ F,0,98959,,0
+Sprite,Background,Centre,"sb\bed\b1.png",320,0
+ S,0,81817,,0.7
+ MY,0,81817,,330
+ F,0,81817,96959,1,0
+Sprite,Background,Centre,"sb\7frames\f1.png",0,0
+ F,0,99272,,1
+ S,0,99272,,0.7
+ MX,0,99272,,350
+ MX,29,99272,99522,350,305
+ MY,25,99272,99522,0,5
+ MX,29,99545,99795,305,260
+ MX,29,99818,100068,260,215
+ MX,29,100091,100341,215,170
+ MX,29,100364,100614,170,125
+ MX,29,100637,100887,125,80
+ MX,29,100910,101160,80,35
+ MX,29,101183,101433,35,-10
+ F,0,101305,,0
+ F,0,101456,,1
+ S,0,101456,,0.7
+ MX,0,101456,,350
+ MX,29,101456,101706,350,305
+ MY,25,101456,101706,0,5
+ MX,29,101729,101979,305,260
+ MX,29,102002,102252,260,215
+ MX,29,102275,102525,215,170
+ MX,29,102548,102798,170,125
+ MX,29,102821,103071,125,80
+ MX,29,103094,103344,80,35
+ MX,29,103367,103617,35,-10
+ F,0,103489,,0
+ F,0,103640,,1
+ S,0,103640,,0.7
+ MX,0,103640,,350
+ MX,29,103640,103890,350,305
+ MY,25,103640,103890,0,5
+ MX,29,103913,104163,305,260
+ MX,29,104186,104436,260,215
+ MX,29,104459,104709,215,170
+ MX,29,104732,104982,170,125
+ MX,29,105005,105255,125,80
+ MX,29,105278,105528,80,35
+ MX,29,105551,105801,35,-10
+ F,0,105673,,0
+ F,0,105824,,1
+ S,0,105824,,0.7
+ MX,0,105824,,350
+ MX,29,105824,106074,350,305
+ MY,25,105824,106074,0,5
+ MX,29,106097,106347,305,260
+ MX,29,106370,106620,260,215
+ MX,29,106643,106893,215,170
+ MX,29,106916,107166,170,125
+ MX,29,107189,107439,125,80
+ MX,29,107462,107712,80,35
+ MX,29,107735,107985,35,-10
+ F,0,107857,,0
+ F,0,108008,,1
+ S,0,108008,,0.7
+ MX,0,108008,,350
+ MX,29,108008,108258,350,305
+ MY,25,108008,108258,0,5
+ MX,29,108281,108531,305,260
+ MX,29,108554,108804,260,215
+ MX,29,108827,109077,215,170
+ MX,29,109100,109350,170,125
+ MX,29,109373,109623,125,80
+ MX,29,109646,109896,80,35
+ MX,29,109919,110169,35,-10
+ F,0,110041,,0
+ F,0,110192,,1
+ S,0,110192,,0.7
+ MX,0,110192,,350
+ MX,29,110192,110442,350,305
+ MY,25,110192,110442,0,5
+ MX,29,110465,110715,305,260
+ MX,29,110738,110988,260,215
+ MX,29,111011,111261,215,170
+ MX,29,111284,111534,170,125
+ MX,29,111557,111807,125,80
+ MX,29,111830,112080,80,35
+ MX,29,112103,112353,35,-10
+ F,0,112225,,0
+ F,0,112376,,1
+ S,0,112376,,0.7
+ MX,0,112376,,350
+ MX,29,112376,112626,350,305
+ MY,25,112376,112626,0,5
+ MX,29,112649,112899,305,260
+ MX,29,112922,113172,260,215
+ MX,29,113195,113445,215,170
+ MX,29,113468,113718,170,125
+ MX,29,113741,113991,125,80
+ MX,29,114014,114264,80,35
+ MX,29,114287,114537,35,-10
+ F,0,114409,,0
+ F,0,114560,,1
+ S,0,114560,,0.7
+ MX,0,114560,,350
+ MX,29,114560,114810,350,305
+ MY,25,114560,114810,0,5
+ MX,29,114833,115083,305,260
+ MX,29,115106,115356,260,215
+ MX,29,115379,115629,215,170
+ MX,29,115652,115902,170,125
+ MX,29,115925,116175,125,80
+ MX,29,116198,116448,80,35
+ MX,29,116471,116721,35,-10
+ F,0,116594,,0
+Sprite,Background,Centre,"sb\7frames\f2.png",0,0
+ F,0,99545,,1
+ S,0,99545,,0.7
+ MX,0,99545,,350
+ MX,29,99545,99795,350,305
+ MY,25,99545,99795,0,250
+ MX,29,99818,100068,305,260
+ MX,29,100091,100341,260,215
+ MX,29,100364,100614,215,170
+ MX,29,100637,100887,170,125
+ MX,29,100910,101160,125,80
+ MX,29,101183,101433,80,35
+ F,0,101305,,0
+ F,0,101729,,1
+ S,0,101729,,0.7
+ MX,0,101729,,350
+ MX,29,101729,101979,350,305
+ MY,25,101729,101979,0,250
+ MX,29,102002,102252,305,260
+ MX,29,102275,102525,260,215
+ MX,29,102548,102798,215,170
+ MX,29,102821,103071,170,125
+ MX,29,103094,103344,125,80
+ MX,29,103367,103617,80,35
+ F,0,103489,,0
+ F,0,103913,,1
+ S,0,103913,,0.7
+ MX,0,103913,,350
+ MX,29,103913,104163,350,305
+ MY,25,103913,104163,0,250
+ MX,29,104186,104436,305,260
+ MX,29,104459,104709,260,215
+ MX,29,104732,104982,215,170
+ MX,29,105005,105255,170,125
+ MX,29,105278,105528,125,80
+ MX,29,105551,105801,80,35
+ F,0,105673,,0
+ F,0,106097,,1
+ S,0,106097,,0.7
+ MX,0,106097,,350
+ MX,29,106097,106347,350,305
+ MY,25,106097,106347,0,250
+ MX,29,106370,106620,305,260
+ MX,29,106643,106893,260,215
+ MX,29,106916,107166,215,170
+ MX,29,107189,107439,170,125
+ MX,29,107462,107712,125,80
+ MX,29,107735,107985,80,35
+ F,0,107857,,0
+ F,0,108281,,1
+ S,0,108281,,0.7
+ MX,0,108281,,350
+ MX,29,108281,108531,350,305
+ MY,25,108281,108531,0,250
+ MX,29,108554,108804,305,260
+ MX,29,108827,109077,260,215
+ MX,29,109100,109350,215,170
+ MX,29,109373,109623,170,125
+ MX,29,109646,109896,125,80
+ MX,29,109919,110169,80,35
+ F,0,110041,,0
+ F,0,110465,,1
+ S,0,110465,,0.7
+ MX,0,110465,,350
+ MX,29,110465,110715,350,305
+ MY,25,110465,110715,0,250
+ MX,29,110738,110988,305,260
+ MX,29,111011,111261,260,215
+ MX,29,111284,111534,215,170
+ MX,29,111557,111807,170,125
+ MX,29,111830,112080,125,80
+ MX,29,112103,112353,80,35
+ F,0,112225,,0
+ F,0,112649,,1
+ S,0,112649,,0.7
+ MX,0,112649,,350
+ MX,29,112649,112899,350,305
+ MY,25,112649,112899,0,250
+ MX,29,112922,113172,305,260
+ MX,29,113195,113445,260,215
+ MX,29,113468,113718,215,170
+ MX,29,113741,113991,170,125
+ MX,29,114014,114264,125,80
+ MX,29,114287,114537,80,35
+ F,0,114409,,0
+ F,0,114833,,1
+ S,0,114833,,0.7
+ MX,0,114833,,350
+ MX,29,114833,115083,350,305
+ MY,25,114833,115083,0,250
+ MX,29,115106,115356,305,260
+ MX,29,115379,115629,260,215
+ MX,29,115652,115902,215,170
+ MX,29,115925,116175,170,125
+ MX,29,116198,116448,125,80
+ MX,29,116471,116721,80,35
+ F,0,116594,,0
+Sprite,Background,Centre,"sb\7frames\f3.png",0,0
+ F,0,99818,,1
+ S,0,99818,,0.7
+ MX,0,99818,,350
+ MX,29,99818,100068,350,305
+ MY,25,99818,100068,0,5
+ MX,29,100091,100341,305,260
+ MX,29,100364,100614,260,215
+ MX,29,100637,100887,215,170
+ MX,29,100910,101160,170,125
+ MX,29,101183,101433,125,80
+ F,0,101305,,0
+ F,0,102002,,1
+ S,0,102002,,0.7
+ MX,0,102002,,350
+ MX,29,102002,102252,350,305
+ MY,25,102002,102252,0,5
+ MX,29,102275,102525,305,260
+ MX,29,102548,102798,260,215
+ MX,29,102821,103071,215,170
+ MX,29,103094,103344,170,125
+ MX,29,103367,103617,125,80
+ F,0,103489,,0
+ F,0,104186,,1
+ S,0,104186,,0.7
+ MX,0,104186,,350
+ MX,29,104186,104436,350,305
+ MY,25,104186,104436,0,5
+ MX,29,104459,104709,305,260
+ MX,29,104732,104982,260,215
+ MX,29,105005,105255,215,170
+ MX,29,105278,105528,170,125
+ MX,29,105551,105801,125,80
+ F,0,105673,,0
+ F,0,106370,,1
+ S,0,106370,,0.7
+ MX,0,106370,,350
+ MX,29,106370,106620,350,305
+ MY,25,106370,106620,0,5
+ MX,29,106643,106893,305,260
+ MX,29,106916,107166,260,215
+ MX,29,107189,107439,215,170
+ MX,29,107462,107712,170,125
+ MX,29,107735,107985,125,80
+ F,0,107857,,0
+ F,0,108554,,1
+ S,0,108554,,0.7
+ MX,0,108554,,350
+ MX,29,108554,108804,350,305
+ MY,25,108554,108804,0,5
+ MX,29,108827,109077,305,260
+ MX,29,109100,109350,260,215
+ MX,29,109373,109623,215,170
+ MX,29,109646,109896,170,125
+ MX,29,109919,110169,125,80
+ F,0,110041,,0
+ F,0,110738,,1
+ S,0,110738,,0.7
+ MX,0,110738,,350
+ MX,29,110738,110988,350,305
+ MY,25,110738,110988,0,5
+ MX,29,111011,111261,305,260
+ MX,29,111284,111534,260,215
+ MX,29,111557,111807,215,170
+ MX,29,111830,112080,170,125
+ MX,29,112103,112353,125,80
+ F,0,112225,,0
+ F,0,112922,,1
+ S,0,112922,,0.7
+ MX,0,112922,,350
+ MX,29,112922,113172,350,305
+ MY,25,112922,113172,0,5
+ MX,29,113195,113445,305,260
+ MX,29,113468,113718,260,215
+ MX,29,113741,113991,215,170
+ MX,29,114014,114264,170,125
+ MX,29,114287,114537,125,80
+ F,0,114409,,0
+ F,0,115106,,1
+ S,0,115106,,0.7
+ MX,0,115106,,350
+ MX,29,115106,115356,350,305
+ MY,25,115106,115356,0,5
+ MX,29,115379,115629,305,260
+ MX,29,115652,115902,260,215
+ MX,29,115925,116175,215,170
+ MX,29,116198,116448,170,125
+ MX,29,116471,116721,125,80
+ F,0,116594,,0
+Sprite,Background,Centre,"sb\7frames\f4.png",0,0
+ F,0,100091,,1
+ S,0,100091,,0.7
+ MX,0,100091,,350
+ MX,29,100091,100341,350,305
+ MY,25,100091,100341,0,5
+ MX,29,100364,100614,305,260
+ MX,29,100637,100887,260,215
+ MX,29,100910,101160,215,170
+ MX,29,101183,101433,170,125
+ F,0,101305,,0
+ F,0,102275,,1
+ S,0,102275,,0.7
+ MX,0,102275,,350
+ MX,29,102275,102525,350,305
+ MY,25,102275,102525,0,5
+ MX,29,102548,102798,305,260
+ MX,29,102821,103071,260,215
+ MX,29,103094,103344,215,170
+ MX,29,103367,103617,170,125
+ F,0,103489,,0
+ F,0,104459,,1
+ S,0,104459,,0.7
+ MX,0,104459,,350
+ MX,29,104459,104709,350,305
+ MY,25,104459,104709,0,5
+ MX,29,104732,104982,305,260
+ MX,29,105005,105255,260,215
+ MX,29,105278,105528,215,170
+ MX,29,105551,105801,170,125
+ F,0,105673,,0
+ F,0,106643,,1
+ S,0,106643,,0.7
+ MX,0,106643,,350
+ MX,29,106643,106893,350,305
+ MY,25,106643,106893,0,5
+ MX,29,106916,107166,305,260
+ MX,29,107189,107439,260,215
+ MX,29,107462,107712,215,170
+ MX,29,107735,107985,170,125
+ F,0,107857,,0
+ F,0,108827,,1
+ S,0,108827,,0.7
+ MX,0,108827,,350
+ MX,29,108827,109077,350,305
+ MY,25,108827,109077,0,5
+ MX,29,109100,109350,305,260
+ MX,29,109373,109623,260,215
+ MX,29,109646,109896,215,170
+ MX,29,109919,110169,170,125
+ F,0,110041,,0
+ F,0,111011,,1
+ S,0,111011,,0.7
+ MX,0,111011,,350
+ MX,29,111011,111261,350,305
+ MY,25,111011,111261,0,5
+ MX,29,111284,111534,305,260
+ MX,29,111557,111807,260,215
+ MX,29,111830,112080,215,170
+ MX,29,112103,112353,170,125
+ F,0,112225,,0
+ F,0,113195,,1
+ S,0,113195,,0.7
+ MX,0,113195,,350
+ MX,29,113195,113445,350,305
+ MY,25,113195,113445,0,5
+ MX,29,113468,113718,305,260
+ MX,29,113741,113991,260,215
+ MX,29,114014,114264,215,170
+ MX,29,114287,114537,170,125
+ F,0,114409,,0
+ F,0,115379,,1
+ S,0,115379,,0.7
+ MX,0,115379,,350
+ MX,29,115379,115629,350,305
+ MY,25,115379,115629,0,5
+ MX,29,115652,115902,305,260
+ MX,29,115925,116175,260,215
+ MX,29,116198,116448,215,170
+ MX,29,116471,116721,170,125
+ F,0,116594,,0
+Sprite,Background,Centre,"sb\7frames\f5.png",0,0
+ F,0,100364,,1
+ S,0,100364,,0.7
+ MX,0,100364,,350
+ MX,29,100364,100614,350,305
+ MY,25,100364,100614,0,5
+ MX,29,100637,100887,305,260
+ MX,29,100910,101160,260,215
+ MX,29,101183,101433,215,170
+ F,0,101305,,0
+ F,0,102548,,1
+ S,0,102548,,0.7
+ MX,0,102548,,350
+ MX,29,102548,102798,350,305
+ MY,25,102548,102798,0,5
+ MX,29,102821,103071,305,260
+ MX,29,103094,103344,260,215
+ MX,29,103367,103617,215,170
+ F,0,103489,,0
+ F,0,104732,,1
+ S,0,104732,,0.7
+ MX,0,104732,,350
+ MX,29,104732,104982,350,305
+ MY,25,104732,104982,0,5
+ MX,29,105005,105255,305,260
+ MX,29,105278,105528,260,215
+ MX,29,105551,105801,215,170
+ F,0,105673,,0
+ F,0,106916,,1
+ S,0,106916,,0.7
+ MX,0,106916,,350
+ MX,29,106916,107166,350,305
+ MY,25,106916,107166,0,5
+ MX,29,107189,107439,305,260
+ MX,29,107462,107712,260,215
+ MX,29,107735,107985,215,170
+ F,0,107857,,0
+ F,0,109100,,1
+ S,0,109100,,0.7
+ MX,0,109100,,350
+ MX,29,109100,109350,350,305
+ MY,25,109100,109350,0,5
+ MX,29,109373,109623,305,260
+ MX,29,109646,109896,260,215
+ MX,29,109919,110169,215,170
+ F,0,110041,,0
+ F,0,111284,,1
+ S,0,111284,,0.7
+ MX,0,111284,,350
+ MX,29,111284,111534,350,305
+ MY,25,111284,111534,0,5
+ MX,29,111557,111807,305,260
+ MX,29,111830,112080,260,215
+ MX,29,112103,112353,215,170
+ F,0,112225,,0
+ F,0,113468,,1
+ S,0,113468,,0.7
+ MX,0,113468,,350
+ MX,29,113468,113718,350,305
+ MY,25,113468,113718,0,5
+ MX,29,113741,113991,305,260
+ MX,29,114014,114264,260,215
+ MX,29,114287,114537,215,170
+ F,0,114409,,0
+ F,0,115652,,1
+ S,0,115652,,0.7
+ MX,0,115652,,350
+ MX,29,115652,115902,350,305
+ MY,25,115652,115902,0,5
+ MX,29,115925,116175,305,260
+ MX,29,116198,116448,260,215
+ MX,29,116471,116721,215,170
+ F,0,116594,,0
+Sprite,Background,Centre,"sb\7frames\f6.png",0,0
+ F,0,100637,,1
+ S,0,100637,,0.7
+ MX,0,100637,,350
+ MX,29,100637,100887,350,305
+ MY,25,100637,100887,0,5
+ MX,29,100910,101160,305,260
+ MX,29,101183,101433,260,215
+ F,0,101305,,0
+ F,0,102821,,1
+ S,0,102821,,0.7
+ MX,0,102821,,350
+ MX,29,102821,103071,350,305
+ MY,25,102821,103071,0,5
+ MX,29,103094,103344,305,260
+ MX,29,103367,103617,260,215
+ F,0,103489,,0
+ F,0,105005,,1
+ S,0,105005,,0.7
+ MX,0,105005,,350
+ MX,29,105005,105255,350,305
+ MY,25,105005,105255,0,5
+ MX,29,105278,105528,305,260
+ MX,29,105551,105801,260,215
+ F,0,105673,,0
+ F,0,107189,,1
+ S,0,107189,,0.7
+ MX,0,107189,,350
+ MX,29,107189,107439,350,305
+ MY,25,107189,107439,0,5
+ MX,29,107462,107712,305,260
+ MX,29,107735,107985,260,215
+ F,0,107857,,0
+ F,0,109373,,1
+ S,0,109373,,0.7
+ MX,0,109373,,350
+ MX,29,109373,109623,350,305
+ MY,25,109373,109623,0,5
+ MX,29,109646,109896,305,260
+ MX,29,109919,110169,260,215
+ F,0,110041,,0
+ F,0,111557,,1
+ S,0,111557,,0.7
+ MX,0,111557,,350
+ MX,29,111557,111807,350,305
+ MY,25,111557,111807,0,5
+ MX,29,111830,112080,305,260
+ MX,29,112103,112353,260,215
+ F,0,112225,,0
+ F,0,113741,,1
+ S,0,113741,,0.7
+ MX,0,113741,,350
+ MX,29,113741,113991,350,305
+ MY,25,113741,113991,0,5
+ MX,29,114014,114264,305,260
+ MX,29,114287,114537,260,215
+ F,0,114409,,0
+ F,0,115925,,1
+ S,0,115925,,0.7
+ MX,0,115925,,350
+ MX,29,115925,116175,350,305
+ MY,25,115925,116175,0,5
+ MX,29,116198,116448,305,260
+ MX,29,116471,116721,260,215
+ F,0,116594,,0
+Sprite,Background,Centre,"sb\7frames\f7.png",0,0
+ F,0,100910,,1
+ S,0,100910,,0.7
+ MX,0,100910,,350
+ MX,29,100910,101160,350,305
+ MY,25,100910,101160,0,5
+ MX,29,101183,101433,305,260
+ F,0,101305,,0
+ F,0,103094,,1
+ S,0,103094,,0.7
+ MX,0,103094,,350
+ MX,29,103094,103344,350,305
+ MY,25,103094,103344,0,5
+ MX,29,103367,103617,305,260
+ F,0,103489,,0
+ F,0,105278,,1
+ S,0,105278,,0.7
+ MX,0,105278,,350
+ MX,29,105278,105528,350,305
+ MY,25,105278,105528,0,5
+ MX,29,105551,105801,305,260
+ F,0,105673,,0
+ F,0,107462,,1
+ S,0,107462,,0.7
+ MX,0,107462,,350
+ MX,29,107462,107712,350,305
+ MY,25,107462,107712,0,5
+ MX,29,107735,107985,305,260
+ F,0,107857,,0
+ F,0,109646,,1
+ S,0,109646,,0.7
+ MX,0,109646,,350
+ MX,29,109646,109896,350,305
+ MY,25,109646,109896,0,5
+ MX,29,109919,110169,305,260
+ F,0,110041,,0
+ F,0,111830,,1
+ S,0,111830,,0.7
+ MX,0,111830,,350
+ MX,29,111830,112080,350,305
+ MY,25,111830,112080,0,5
+ MX,29,112103,112353,305,260
+ F,0,112225,,0
+ F,0,114014,,1
+ S,0,114014,,0.7
+ MX,0,114014,,350
+ MX,29,114014,114264,350,305
+ MY,25,114014,114264,0,5
+ MX,29,114287,114537,305,260
+ F,0,114409,,0
+ F,0,116198,,1
+ S,0,116198,,0.7
+ MX,0,116198,,350
+ MX,29,116198,116448,350,305
+ MY,25,116198,116448,0,5
+ MX,29,116471,116721,305,260
+ F,0,116594,,0
+Sprite,Background,Centre,"sb\bed\b2.png",320,0
+ F,0,136089,,1
+ S,0,136089,,0.7
+ MY,0,136089,,330
+ F,0,152998,,0
+Sprite,Background,Centre,"sb\bed\b1.png",320,0
+ S,0,136089,,0.7
+ MY,0,136089,,330
+ F,0,136089,150998,1,0
+Sprite,Background,Centre,"sb\bed\b3.png",320,0
+ F,0,153544,,1
+ S,0,153544,,0.7
+ MY,0,153544,,300
+ F,0,160635,,0
+Sprite,Background,Centre,"sb\bed\b4.png",0,240
+ F,0,160635,,1
+ S,0,160635,,0.7
+ MX,0,160635,,100
+ F,0,161998,,0
+Sprite,Background,Centre,"sb\bed\b5.png",400,300
+ F,0,162271,,1
+ S,0,162271,,0.7
+ MX,0,162271,,400
+ MY,0,162271,,300
+ F,0,169907,,0
+Sprite,Background,Centre,"sb\stare\s5.png",320,0
+ MY,0,170998,,260
+ S,0,170998,171407,0.7
+ F,0,171457,,0
+Sprite,Background,Centre,"sb\stare\s6.png",320,0
+ MY,0,171407,,260
+ S,0,171407,171680,0.7
+ F,0,171730,,0
+Sprite,Background,Centre,"sb\stare\s7.png",320,0
+ MY,0,171680,,260
+ S,0,171680,179726,0.7
+ F,0,179776,,0
+Sprite,Background,Centre,"sb\a\_000.png",0,0
+ S,0,81760,,0.5
+ MX,0,81760,,320
+ MY,0,81760,,100
+ F,0,81760,81960,0,1
+ F,0,84600,84800,1,0
+Sprite,Background,Centre,"sb\a\_001.png",0,0
+ S,0,85300,,0.5
+ MX,0,85300,,320
+ MY,0,85300,,100
+ F,0,85300,85500,0,1
+ F,0,87030,87230,1,0
+Sprite,Background,Centre,"sb\a\_002.png",0,0
+ S,0,87400,,0.5
+ MX,0,87400,,320
+ MY,0,87400,,100
+ F,0,87400,87600,0,1
+ F,0,88500,88700,1,0
+Sprite,Background,Centre,"sb\a\_003.png",0,0
+ S,0,88700,,0.5
+ MX,0,88700,,320
+ MY,0,88700,,100
+ F,0,88700,88900,0,1
+ F,0,90660,90860,1,0
+Sprite,Background,Centre,"sb\a\_004.png",0,0
+ S,0,91700,,0.5
+ MX,0,91700,,320
+ MY,0,91700,,100
+ F,0,91700,91900,0,1
+ F,0,93330,93530,1,0
+Sprite,Background,Centre,"sb\a\_005.png",0,0
+ S,0,93900,,0.5
+ MX,0,93900,,320
+ MY,0,93900,,100
+ F,0,93900,94100,0,1
+ F,0,95160,95360,1,0
+Sprite,Background,Centre,"sb\a\_006.png",0,0
+ S,0,96130,,0.5
+ MX,0,96130,,320
+ MY,0,96130,,100
+ F,0,96130,96330,0,1
+ F,0,97800,98000,1,0
+Sprite,Background,Centre,"sb\a\_007.png",0,0
+ S,0,98000,,0.5
+ MX,0,98000,,320
+ MY,0,98000,,100
+ F,0,98000,98200,0,1
+ F,0,98750,98950,1,0
+Sprite,Background,Centre,"sb\a\_008.png",0,0
+ S,0,153530,,0.5
+ MX,0,153530,,320
+ MY,0,153530,,100
+ F,0,153530,153730,0,1
+ F,0,153830,154030,1,0
+Sprite,Background,Centre,"sb\a\_009.png",0,0
+ S,0,154030,,0.5
+ MX,0,154030,,320
+ MY,0,154030,,100
+ F,0,154030,154230,0,1
+ F,0,156530,156730,1,0
+Sprite,Background,Centre,"sb\a\_00a.png",0,0
+ S,0,157800,,0.5
+ MX,0,157800,,320
+ MY,0,157800,,100
+ F,0,157800,158000,0,1
+ F,0,159760,159960,1,0
+Sprite,Background,Centre,"sb\f\_000.png",596.75,0
+ S,0,21810,,0.5
+ F,0,21810,22010,0,1
+ MY,25,21810,22010,215,235
+ F,0,23610,23810,1,0
+Sprite,Background,Centre,"sb\f\_001.png",595.5,0
+ S,0,23960,,0.5
+ F,0,23960,24160,0,1
+ MY,25,23960,24160,215,235
+ F,0,25860,26060,1,0
+Sprite,Background,Centre,"sb\f\_002.png",595.25,0
+ S,0,26100,,0.5
+ F,0,26100,26300,0,1
+ MY,25,26100,26300,215,235
+ F,0,27060,27260,1,0
+Sprite,Background,Centre,"sb\f\_003.png",592.25,0
+ S,0,27260,,0.5
+ F,0,27260,27460,0,1
+ MY,25,27260,27460,215,235
+ F,0,28060,28260,1,0
+Sprite,Background,Centre,"sb\f\_004.png",593.25,0
+ S,0,28260,,0.5
+ F,0,28260,28460,0,1
+ MY,25,28260,28460,215,235
+ F,0,30060,30260,1,0
+Sprite,Background,Centre,"sb\f\_005.png",597.5,0
+ S,0,30500,,0.5
+ F,0,30500,30700,0,1
+ MY,25,30500,30700,215,235
+ F,0,32060,32260,1,0
+Sprite,Background,Centre,"sb\f\_006.png",593.25,0
+ S,0,32600,,0.5
+ F,0,32600,32800,0,1
+ MY,25,32600,32800,215,235
+ F,0,33760,33960,1,0
+Sprite,Background,Centre,"sb\f\_007.png",595.5,0
+ S,0,33960,,0.5
+ F,0,33960,34160,0,1
+ MY,25,33960,34160,215,235
+ F,0,34730,34930,1,0
+Sprite,Background,Centre,"sb\f\_008.png",594.5,0
+ S,0,34930,,0.5
+ F,0,34930,35130,0,1
+ MY,25,34930,35130,215,235
+ F,0,35660,35860,1,0
+Sprite,Background,Centre,"sb\f\_009.png",592.25,0
+ S,0,35930,,0.5
+ F,0,35930,36130,0,1
+ MY,25,35930,36130,215,235
+ F,0,36760,36960,1,0
+Sprite,Background,Centre,"sb\f\_00a.png",593.5,0
+ S,0,37100,,0.5
+ F,0,37100,37300,0,1
+ MY,25,37100,37300,215,235
+ F,0,37930,38130,1,0
+Sprite,Background,Centre,"sb\f\_00b.png",595.25,0
+ S,0,38130,,0.5
+ F,0,38130,38330,0,1
+ MY,25,38130,38330,215,235
+ F,0,40860,41060,1,0
+Sprite,Background,Centre,"sb\f\_00c.png",594,0
+ S,0,41310,,0.5
+ F,0,41310,41510,0,1
+ MY,25,41310,41510,215,235
+ F,0,43430,43630,1,0
+Sprite,Background,Centre,"sb\f\_00d.png",593.75,0
+ S,0,43730,,0.5
+ F,0,43730,43930,0,1
+ MY,25,43730,43930,215,235
+ F,0,44460,44660,1,0
+Sprite,Background,Centre,"sb\f\_00e.png",595.75,0
+ S,0,44660,,0.5
+ F,0,44660,44860,0,1
+ MY,25,44660,44860,215,235
+ F,0,45730,45930,1,0
+Sprite,Background,Centre,"sb\f\_00f.png",595.25,0
+ S,0,45930,,0.5
+ F,0,45930,46130,0,1
+ MY,25,45930,46130,215,235
+ F,0,46560,46760,1,0
+Sprite,Background,Centre,"sb\f\_010.png",595,0
+ S,0,46760,,0.5
+ F,0,46760,46960,0,1
+ MY,25,46760,46960,215,235
+ F,0,47730,47930,1,0
+Sprite,Background,Centre,"sb\f\_011.png",593,0
+ S,0,47930,,0.5
+ F,0,47930,48130,0,1
+ MY,25,47930,48130,215,235
+ F,0,48330,48530,1,0
+Sprite,Background,Centre,"sb\f\_012.png",593,0
+ S,0,48530,,0.5
+ F,0,48530,48730,0,1
+ MY,25,48530,48730,215,235
+ F,0,48800,49000,1,0
+Sprite,Background,Centre,"sb\f\_013.png",593.5,0
+ S,0,49000,,0.5
+ F,0,49000,49200,0,1
+ MY,25,49000,49200,215,235
+ F,0,49960,50160,1,0
+Sprite,Background,Centre,"sb\f\_011.png",593,0
+ S,0,50160,,0.5
+ F,0,50160,50360,0,1
+ MY,25,50160,50360,215,235
+ F,0,50460,50660,1,0
+Sprite,Background,Centre,"sb\f\_014.png",592,0
+ S,0,50660,,0.5
+ F,0,50660,50860,0,1
+ MY,25,50660,50860,215,235
+ F,0,51500,51700,1,0
+Sprite,Background,Centre,"sb\f\_015.png",596,0
+ S,0,51700,,0.5
+ F,0,51700,51900,0,1
+ MY,25,51700,51900,215,235
+ F,0,52130,52330,1,0
+Sprite,Background,Centre,"sb\f\_016.png",595,0
+ S,0,52330,,0.5
+ F,0,52330,52530,0,1
+ MY,25,52330,52530,215,235
+ F,0,52700,52900,1,0
+Sprite,Background,Centre,"sb\f\_017.png",595,0
+ S,0,52900,,0.5
+ F,0,52900,53100,0,1
+ MY,25,52900,53100,215,235
+ F,0,54200,54400,1,0
+Sprite,Background,Centre,"sb\f\_018.png",594,0
+ S,0,54400,,0.5
+ F,0,54400,54600,0,1
+ MY,25,54400,54600,215,235
+ F,0,55430,55630,1,0
+Sprite,Background,Centre,"sb\f\_019.png",592,0
+ S,0,55630,,0.5
+ F,0,55630,55830,0,1
+ MY,25,55630,55830,215,235
+ F,0,56530,56730,1,0
+Sprite,Background,Centre,"sb\f\_01a.png",594.5,0
+ S,0,56730,,0.5
+ F,0,56730,56930,0,1
+ MY,25,56730,56930,215,235
+ F,0,57330,57530,1,0
+Sprite,Background,Centre,"sb\f\_01b.png",592.5,0
+ S,0,57530,,0.5
+ F,0,57530,57730,0,1
+ MY,25,57530,57730,215,235
+ F,0,58660,58860,1,0
+Sprite,Background,Centre,"sb\f\_01c.png",591.5,0
+ S,0,58860,,0.5
+ F,0,58860,59060,0,1
+ MY,25,58860,59060,215,235
+ F,0,59800,60000,1,0
+Sprite,Background,Centre,"sb\f\_01d.png",593.25,0
+ S,0,60000,,0.5
+ F,0,60000,60200,0,1
+ MY,25,60000,60200,215,235
+ F,0,60560,60760,1,0
+Sprite,Background,Centre,"sb\f\_011.png",593,0
+ S,0,60760,,0.5
+ F,0,60760,60960,0,1
+ MY,25,60760,60960,215,235
+ F,0,61200,61400,1,0
+Sprite,Background,Centre,"sb\f\_01e.png",592.5,0
+ S,0,61400,,0.5
+ F,0,61400,61600,0,1
+ MY,25,61400,61600,215,235
+ F,0,62800,63000,1,0
+Sprite,Background,Centre,"sb\f\_01f.png",593.75,0
+ S,0,63000,,0.5
+ F,0,63000,63200,0,1
+ MY,25,63000,63200,215,235
+ F,0,63460,63660,1,0
+Sprite,Background,Centre,"sb\f\_020.png",595.75,0
+ S,0,63660,,0.5
+ F,0,63660,63860,0,1
+ MY,25,63660,63860,215,235
+ F,0,64160,64360,1,0
+Sprite,Background,Centre,"sb\f\_000.png",596.75,0
+ S,0,99270,,0.5
+ F,0,99270,99470,0,1
+ MY,25,99270,99470,215,235
+ F,0,101110,101310,1,0
+Sprite,Background,Centre,"sb\f\_001.png",595.5,0
+ S,0,101460,,0.5
+ F,0,101460,101660,0,1
+ MY,25,101460,101660,215,235
+ F,0,103200,103400,1,0
+Sprite,Background,Centre,"sb\f\_021.png",595.25,0
+ S,0,103630,,0.5
+ F,0,103630,103830,0,1
+ MY,25,103630,103830,215,235
+ F,0,104460,104660,1,0
+Sprite,Background,Centre,"sb\f\_022.png",592.5,0
+ S,0,104660,,0.5
+ F,0,104660,104860,0,1
+ MY,25,104660,104860,215,235
+ F,0,105460,105660,1,0
+Sprite,Background,Centre,"sb\f\_023.png",594,0
+ S,0,105730,,0.5
+ F,0,105730,105930,0,1
+ MY,25,105730,105930,215,235
+ F,0,106760,106960,1,0
+Sprite,Background,Centre,"sb\f\_024.png",594.25,0
+ S,0,106960,,0.5
+ F,0,106960,107160,0,1
+ MY,25,106960,107160,215,235
+ F,0,107800,108000,1,0
+Sprite,Background,Centre,"sb\f\_025.png",592.75,0
+ S,0,108000,,0.5
+ F,0,108000,108200,0,1
+ MY,25,108000,108200,215,235
+ F,0,109600,109800,1,0
+Sprite,Background,Centre,"sb\f\_026.png",594.25,0
+ S,0,110160,,0.5
+ F,0,110160,110360,0,1
+ MY,25,110160,110360,215,235
+ F,0,111260,111460,1,0
+Sprite,Background,Centre,"sb\f\_027.png",594.75,0
+ S,0,111460,,0.5
+ F,0,111460,111660,0,1
+ MY,25,111460,111660,215,235
+ F,0,112130,112330,1,0
+Sprite,Background,Centre,"sb\f\_028.png",594.5,0
+ S,0,112330,,0.5
+ F,0,112330,112530,0,1
+ MY,25,112330,112530,215,235
+ F,0,114030,114230,1,0
+Sprite,Background,Centre,"sb\f\_029.png",594.75,0
+ S,0,114560,,0.5
+ F,0,114560,114760,0,1
+ MY,25,114560,114760,215,235
+ F,0,115230,115430,1,0
+Sprite,Background,Centre,"sb\f\_02a.png",597,0
+ S,0,115430,,0.5
+ F,0,115430,115630,0,1
+ MY,25,115430,115630,215,235
+ F,0,116700,116900,1,0
+Sprite,Background,Centre,"sb\f\_00f.png",595.25,0
+ S,0,116900,,0.5
+ F,0,116900,117100,0,1
+ MY,25,116900,117100,215,235
+ F,0,117660,117860,1,0
+Sprite,Background,Centre,"sb\f\_02b.png",593.5,0
+ S,0,117860,,0.5
+ F,0,117860,118060,0,1
+ MY,25,117860,118060,215,235
+ F,0,118730,118930,1,0
+Sprite,Background,Centre,"sb\f\_011.png",593,0
+ S,0,118930,,0.5
+ F,0,118930,119130,0,1
+ MY,25,118930,119130,215,235
+ F,0,119260,119460,1,0
+Sprite,Background,Centre,"sb\f\_02c.png",595.25,0
+ S,0,119460,,0.5
+ F,0,119460,119660,0,1
+ MY,25,119460,119660,215,235
+ F,0,119730,119930,1,0
+Sprite,Background,Centre,"sb\f\_02d.png",590.25,0
+ S,0,119930,,0.5
+ F,0,119930,120130,0,1
+ MY,25,119930,120130,215,235
+ F,0,120560,120760,1,0
+Sprite,Background,Centre,"sb\f\_011.png",593,0
+ S,0,120760,,0.5
+ F,0,120760,120960,0,1
+ MY,25,120760,120960,215,235
+ F,0,121100,121300,1,0
+Sprite,Background,Centre,"sb\f\_014.png",592,0
+ S,0,121300,,0.5
+ F,0,121300,121500,0,1
+ MY,25,121300,121500,215,235
+ F,0,122100,122300,1,0
+Sprite,Background,Centre,"sb\f\_015.png",596,0
+ S,0,122300,,0.5
+ F,0,122300,122500,0,1
+ MY,25,122300,122500,215,235
+ F,0,122660,122860,1,0
+Sprite,Background,Centre,"sb\f\_016.png",595,0
+ S,0,122860,,0.5
+ F,0,122860,123060,0,1
+ MY,25,122860,123060,215,235
+ F,0,123330,123530,1,0
+Sprite,Background,Centre,"sb\f\_017.png",595,0
+ S,0,123530,,0.5
+ F,0,123530,123730,0,1
+ MY,25,123530,123730,215,235
+ F,0,124760,124960,1,0
+Sprite,Background,Centre,"sb\f\_02e.png",596,0
+ S,0,125160,,0.5
+ F,0,125160,125360,0,1
+ MY,25,125160,125360,215,235
+ F,0,125600,125800,1,0
+Sprite,Background,Centre,"sb\f\_02f.png",590.25,0
+ S,0,125800,,0.5
+ F,0,125800,126000,0,1
+ MY,25,125800,126000,215,235
+ F,0,126930,127130,1,0
+Sprite,Background,Centre,"sb\f\_030.png",596.5,0
+ S,0,127130,,0.5
+ F,0,127130,127330,0,1
+ MY,25,127130,127330,215,235
+ F,0,127730,127930,1,0
+Sprite,Background,Centre,"sb\f\_031.png",595,0
+ S,0,127930,,0.5
+ F,0,127930,128130,0,1
+ MY,25,127930,128130,215,235
+ F,0,129100,129300,1,0
+Sprite,Background,Centre,"sb\f\_032.png",594,0
+ S,0,129300,,0.5
+ F,0,129300,129500,0,1
+ MY,25,129300,129500,215,235
+ F,0,129830,130030,1,0
+Sprite,Background,Centre,"sb\f\_033.png",590.5,0
+ S,0,130030,,0.5
+ F,0,130030,130230,0,1
+ MY,25,130030,130230,215,235
+ F,0,131160,131360,1,0
+Sprite,Background,Centre,"sb\f\_034.png",592.5,0
+ S,0,131360,,0.5
+ F,0,131360,131560,0,1
+ MY,25,131360,131560,215,235
+ F,0,131860,132060,1,0
+Sprite,Background,Centre,"sb\f\_035.png",595.5,0
+ S,0,132060,,0.5
+ F,0,132060,132260,0,1
+ MY,25,132060,132260,215,235
+ F,0,132340,132540,1,0
+Sprite,Background,Centre,"sb\f\_036.png",595.75,0
+ S,0,132540,,0.5
+ F,0,132540,132740,0,1
+ MY,25,132540,132740,215,235
+ F,0,133330,133530,1,0
+Sprite,Background,Centre,"sb\f\_01f.png",593.75,0
+ S,0,133530,,0.5
+ F,0,133530,133730,0,1
+ MY,25,133530,133730,215,235
+ F,0,134160,134360,1,0
+Sprite,Background,Centre,"sb\f\_037.png",595.75,0
+ S,0,134360,,0.5
+ F,0,134360,134560,0,1
+ MY,25,134360,134560,215,235
+ F,0,135610,135810,1,0
+Sprite,Background,Centre,"sb\f\_038.png",594.5,0
+ S,0,162270,,0.5
+ F,0,162270,162470,0,1
+ MY,25,162270,162470,215,235
+ F,0,162730,162930,1,0
+Sprite,Background,Centre,"sb\f\_039.png",593,0
+ S,0,162930,,0.5
+ F,0,162930,163130,0,1
+ MY,25,162930,163130,215,235
+ F,0,164260,164460,1,0
+Sprite,Background,Centre,"sb\f\_03a.png",595.75,0
+ S,0,164460,,0.5
+ F,0,164460,164660,0,1
+ MY,25,164460,164660,215,235
+ F,0,164860,165060,1,0
+Sprite,Background,Centre,"sb\f\_03b.png",596,0
+ S,0,165060,,0.5
+ F,0,165060,165260,0,1
+ MY,25,165060,165260,215,235
+ F,0,166360,166560,1,0
+Sprite,Background,Centre,"sb\f\_034.png",592.5,0
+ S,0,166560,,0.5
+ F,0,166560,166760,0,1
+ MY,25,166560,166760,215,235
+ F,0,166760,166960,1,0
+Sprite,Background,Centre,"sb\f\_03c.png",595.25,0
+ S,0,166960,,0.5
+ F,0,166960,167160,0,1
+ MY,25,166960,167160,215,235
+ F,0,167560,167760,1,0
+Sprite,Background,Centre,"sb\f\_03d.png",593,0
+ S,0,167760,,0.5
+ F,0,167760,167960,0,1
+ MY,25,167760,167960,215,235
+ F,0,168260,168460,1,0
+Sprite,Background,Centre,"sb\f\_01f.png",593.75,0
+ S,0,168460,,0.5
+ F,0,168460,168660,0,1
+ MY,25,168460,168660,215,235
+ F,0,169130,169330,1,0
+Sprite,Background,Centre,"sb\f\_020.png",595.75,0
+ S,0,169330,,0.5
+ F,0,169330,169530,0,1
+ MY,25,169330,169530,215,235
+ F,0,169700,169900,1,0
+Sprite,Background,Centre,"sb\f\_03e.png",595.5,0
+ S,0,170960,,0.5
+ F,0,170960,171160,0,1
+ MY,25,170960,171160,215,235
+ F,0,172730,172930,1,0
+Sprite,Background,Centre,"sb\f\_03f.png",596.5,0
+ S,0,173100,,0.5
+ F,0,173100,173300,0,1
+ MY,25,173100,173300,215,235
+ F,0,174800,175000,1,0
+Sprite,Background,Centre,"sb\f\_040.png",593.5,0
+ S,0,175600,,0.5
+ F,0,175600,175800,0,1
+ MY,25,175600,175800,215,235
+ F,0,176200,176400,1,0
+Sprite,Background,Centre,"sb\f\_00e.png",595.75,0
+ S,0,176400,,0.5
+ F,0,176400,176600,0,1
+ MY,25,176400,176600,215,235
+ F,0,177330,177530,1,0
+Sprite,Background,Centre,"sb\f\_00f.png",595.25,0
+ S,0,177730,,0.5
+ F,0,177730,177930,0,1
+ MY,25,177730,177930,215,235
+ F,0,178200,178400,1,0
+Sprite,Background,Centre,"sb\f\_041.png",591.75,0
+ S,0,178400,,0.5
+ F,0,178400,178600,0,1
+ MY,25,178400,178600,215,235
+ F,0,179530,179730,1,0
+Sprite,Background,Centre,"sb\f\_042.png",594.75,0
+ S,0,179730,,0.5
+ F,0,179730,179930,0,1
+ MY,25,179730,179930,215,235
+ F,0,180610,180810,1,0
+Sprite,Background,Centre,"sb\f\_01a.png",594.5,0
+ S,0,189500,,0.5
+ F,0,189500,189700,0,1
+ MY,25,189500,189700,215,235
+ F,0,190100,190300,1,0
+Sprite,Background,Centre,"sb\f\_01b.png",592.5,0
+ S,0,190300,,0.5
+ F,0,190300,190500,0,1
+ MY,25,190300,190500,215,235
+ F,0,191400,191600,1,0
+Sprite,Background,Centre,"sb\f\_01c.png",591.5,0
+ S,0,191600,,0.5
+ F,0,191600,191800,0,1
+ MY,25,191600,191800,215,235
+ F,0,192630,192830,1,0
+Sprite,Background,Centre,"sb\f\_01d.png",593.25,0
+ S,0,192830,,0.5
+ F,0,192830,193030,0,1
+ MY,25,192830,193030,215,235
+ F,0,193400,193600,1,0
+Sprite,Background,Centre,"sb\f\_011.png",593,0
+ S,0,193600,,0.5
+ F,0,193600,193800,0,1
+ MY,25,193600,193800,215,235
+ F,0,194030,194230,1,0
+Sprite,Background,Centre,"sb\f\_043.png",593.5,0
+ S,0,194230,,0.5
+ F,0,194230,194430,0,1
+ MY,25,194230,194430,215,235
+ F,0,194600,194800,1,0
+Sprite,Background,Centre,"sb\f\_044.png",593.5,0
+ S,0,194800,,0.5
+ F,0,194800,195000,0,1
+ MY,25,194800,195000,215,235
+ F,0,195560,195760,1,0
+Sprite,Background,Centre,"sb\f\_045.png",594,0
+ S,0,195760,,0.5
+ F,0,195760,195960,0,1
+ MY,25,195760,195960,215,235
+ F,0,196960,197160,1,0
+Sprite,Background,Centre,"sb\f\_011.png",593,0
+ S,0,197160,,0.5
+ F,0,197160,197360,0,1
+ MY,25,197160,197360,215,235
+ F,0,197400,197600,1,0
+Sprite,Background,Centre,"sb\f\_046.png",594.75,0
+ S,0,197600,,0.5
+ F,0,197600,197800,0,1
+ MY,25,197600,197800,215,235
+ F,0,197960,198160,1,0
+Sprite,Background,Centre,"sb\f\_013.png",593.5,0
+ S,0,198160,,0.5
+ F,0,198160,198360,0,1
+ MY,25,198160,198360,215,235
+ F,0,199100,199300,1,0
+Sprite,Background,Centre,"sb\f\_011.png",593,0
+ S,0,199300,,0.5
+ F,0,199300,199500,0,1
+ MY,25,199300,199500,215,235
+ F,0,199760,199960,1,0
+Sprite,Background,Centre,"sb\f\_047.png",595.5,0
+ S,0,199960,,0.5
+ F,0,199960,200160,0,1
+ MY,25,199960,200160,215,235
+ F,0,201300,201500,1,0
+Sprite,Background,Centre,"sb\f\_048.png",593.5,0
+ S,0,201500,,0.5
+ F,0,201500,201700,0,1
+ MY,25,201500,201700,215,235
+ F,0,202260,202460,1,0
+Sprite,Background,Centre,"sb\f\_049.png",591.5,0
+ S,0,202460,,0.5
+ F,0,202460,202660,0,1
+ MY,25,202460,202660,215,235
+ F,0,203430,203630,1,0
+Sprite,Background,Centre,"sb\f\_04a.png",592.5,0
+ S,0,203630,,0.5
+ F,0,203630,203830,0,1
+ MY,25,203630,203830,215,235
+ F,0,204560,204760,1,0
+Sprite,Background,Centre,"sb\f\_04b.png",592,0
+ S,0,204760,,0.5
+ F,0,204760,204960,0,1
+ MY,25,204760,204960,215,235
+ F,0,205630,205830,1,0
+Sprite,Background,Centre,"sb\f\_04c.png",594,0
+ S,0,205830,,0.5
+ F,0,205830,206030,0,1
+ MY,25,205830,206030,215,235
+ F,0,206700,206900,1,0
+Sprite,Background,Centre,"sb\f\_04d.png",593.5,0
+ S,0,206900,,0.5
+ F,0,206900,207100,0,1
+ MY,25,206900,207100,215,235
+ F,0,207800,208000,1,0
+Sprite,Background,Centre,"sb\f\_04e.png",591.25,0
+ S,0,208000,,0.5
+ F,0,208000,208200,0,1
+ MY,25,208000,208200,215,235
+ F,0,208930,209130,1,0
+Sprite,Background,Centre,"sb\f\_01d.png",593.25,0
+ S,0,209130,,0.5
+ F,0,209130,209330,0,1
+ MY,25,209130,209330,215,235
+ F,0,209660,209860,1,0
+Sprite,Background,Centre,"sb\f\_04f.png",596,0
+ S,0,209860,,0.5
+ F,0,209860,210060,0,1
+ MY,25,209860,210060,215,235
+ F,0,210360,210560,1,0
+Sprite,Background,Centre,"sb\f\_050.png",596.5,0
+ S,0,210560,,0.5
+ F,0,210560,210760,0,1
+ MY,25,210560,210760,215,235
+ F,0,210960,211160,1,0
+Sprite,Background,Centre,"sb\f\_051.png",594.75,0
+ S,0,211160,,0.5
+ F,0,211160,211360,0,1
+ MY,25,211160,211360,215,235
+ F,0,211960,212160,1,0
+Sprite,Background,Centre,"sb\f\_01f.png",593.75,0
+ S,0,212160,,0.5
+ F,0,212160,212360,0,1
+ MY,25,212160,212360,215,235
+ F,0,212700,212900,1,0
+Sprite,Background,Centre,"sb\f\_052.png",595.75,0
+ S,0,212900,,0.5
+ F,0,212900,213100,0,1
+ MY,25,212900,213100,215,235
+ F,0,214700,214900,1,0
+Sprite,Background,Centre,"sb\d\_000.png",593,0
+ S,0,180810,,0.5
+ R,0,180810,,3.141593
+ F,0,180810,181010,0,1
+ MY,25,180810,181010,215,235
+ F,0,181130,181330,1,0
+Sprite,Background,Centre,"sb\d\_001.png",593,0
+ S,0,181330,,0.5
+ R,0,181330,,3.141593
+ F,0,181330,181530,0,1
+ MY,25,181330,181530,215,235
+ F,0,181700,181900,1,0
+Sprite,Background,Centre,"sb\d\_002.png",593.5,0
+ S,0,181900,,0.5
+ R,0,181900,,3.141593
+ F,0,181900,182100,0,1
+ MY,25,181900,182100,215,235
+ F,0,182730,182930,1,0
+Sprite,Background,Centre,"sb\d\_000.png",593,0
+ S,0,182930,,0.5
+ R,0,182930,,3.141593
+ F,0,182930,183130,0,1
+ MY,25,182930,183130,215,235
+ F,0,183260,183460,1,0
+Sprite,Background,Centre,"sb\d\_003.png",594,0
+ S,0,183460,,0.5
+ R,0,183460,,3.141593
+ F,0,183460,183660,0,1
+ MY,25,183460,183660,215,235
+ F,0,184030,184230,1,0
+Sprite,Background,Centre,"sb\d\_004.png",596,0
+ S,0,184230,,0.5
+ R,0,184230,,3.141593
+ F,0,184230,184430,0,1
+ MY,25,184230,184430,215,235
+ F,0,185360,185560,1,0
+Sprite,Background,Centre,"sb\d\_005.png",594.25,0
+ S,0,185560,,0.5
+ R,0,185560,,3.141593
+ F,0,185560,185760,0,1
+ MY,25,185560,185760,215,235
+ F,0,186700,186900,1,0
+Sprite,Background,Centre,"sb\d\_006.png",598.5,0
+ S,0,187260,,0.5
+ R,0,187260,,3.141593
+ F,0,187260,187460,0,1
+ MY,25,187260,187460,215,235
+ F,0,187660,187860,1,0
+Sprite,Background,Centre,"sb\d\_007.png",591.5,0
+ S,0,187860,,0.5
+ R,0,187860,,3.141593
+ F,0,187860,188060,0,1
+ MY,25,187860,188060,215,235
+ F,0,189300,189500,1,0</value>
+  </data>
+</root>
