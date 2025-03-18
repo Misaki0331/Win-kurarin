@@ -14,10 +14,14 @@ namespace KyukurarinForm
    
     public partial class Forms : Form
     {
-        
+        [DllImport("dwmapi.dll")]
+        private static extern int DwmSetWindowAttribute(IntPtr hWnd, int attr, ref int pvAttribute, int cbAttribute);
+
         public Forms(List<Movement> move,Bitmap map,Arial.Position position= Arial.Position.Center,int x=0,int y=0,bool topmost=false)
         {
             InitializeComponent();
+            int titleBarColor = ColorTranslator.ToWin32(Color.FromArgb(254, 201, 215));
+            DwmSetWindowAttribute(Handle, 35, ref titleBarColor, sizeof(int));
             Show();
             TopMost = topmost;
             pos = position;
